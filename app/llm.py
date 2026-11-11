@@ -64,7 +64,7 @@ def _mock(kontext: dict) -> dict:
 def frage_ki(fid: str, kontext: dict) -> dict:
     if os.environ.get("MOCK_LLM") == "1":
         return _mock(kontext)
-    key = os.environ.get("OPENAI_API_KEY")
+    key = os.environ.get("OPENAI_API_KEY") or os.environ.get("OPENAI_APIKEY")
     modell = os.environ.get("OPENAI_MODEL")
     if not key or not modell:
         raise KIFehler("Der Prüfdienst ist noch nicht fertig eingerichtet (API-Schlüssel oder Modellname fehlt).")
@@ -72,7 +72,12 @@ def frage_ki(fid: str, kontext: dict) -> dict:
         from openai import OpenAI
     except ImportError as e:  # pragma: no cover
         raise KIFehler("Die OpenAI-Bibliothek ist auf dem Server nicht installiert.") from e
-    client = OpenAI(api_key=key, timeout=float(os.environ.get("OPENAI_TIMEOUT", "240")), max_retries=1)
+    client = OpenAI(
+        api_key=key,
+        organization=os.environ.get("OPENAI_ORGID") or os.environ.get("OPENAI_ORG_ID") or None,
+        timeout=float(os.environ.get("OPENAI_TIMEOUT", "240")),
+        max_retries=1,
+    )
     try:
         antwort = client.chat.completions.create(
             model=modell,

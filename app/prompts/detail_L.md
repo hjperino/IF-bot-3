@@ -163,7 +163,7 @@ Prüfe, ob erklärt wird:
 - beispielhaft, wie die Schüler:innen/Lernenden arbeiten und lernen,
 - welche zentralen Lernformen, didaktischen Konzepte, Methoden/Techniken eingesetzt werden.
 
-Nur Ziele ohne erkennbare Umsetzung: teilweise erfüllt, didaktische Konkretisierung vorschlagen. Fehlt ein Beispiel für den Lernablauf: Beispiel vorschlagen (unter Einhaltung der Längenvorgabe).
+Nur Ziele ohne erkennbare Umsetzung: teilweise erfüllt, didaktische Konkretisierung vorschlagen. Fehlt ein Beispiel für den Lernablauf: Beispiel vorschlagen.
 
 ### 5.6 Kapitel 3.2.2 – Zusammenarbeit Mensch – Technik
 

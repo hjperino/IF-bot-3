@@ -217,8 +217,11 @@ def pruefe(dateiname: str, daten: bytes, formular_wahl: str = "auto") -> dict:
         nr = re.match(r"\s*(\d+(?:\.\d+)*)", ab)
         if nr and nr.group(1) in team_nrs:
             continue  # Team wird nur lokal geprüft
+        todo = pflege(z.get("todo"))
+        if status == "erfuellt":
+            todo = ""  # «erfüllt» und To-do schliessen sich aus
         ki_zeilen.append({"abschnitt": ab, "status": status, "befund": pflege(z.get("befund")),
-                          "todo": pflege(z.get("todo")), "quelle": "ki"})
+                          "todo": todo, "quelle": "ki"})
     alle = lokal_zeilen + ki_zeilen
     reihenfolge = {id(z): i for i, z in enumerate(alle)}
 

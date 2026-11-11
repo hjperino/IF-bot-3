@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+.pytest_cache/
+tests/out/
+# Enthält interne Notizen zur Finanzabwicklung – nicht ins öffentliche Repo.
+# Die App braucht nur app/data/schulen.json (wird mit tools/build_data.py daraus erzeugt).
+referenz/*.xlsx

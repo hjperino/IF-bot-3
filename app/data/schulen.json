@@ -1,0 +1,509 @@
+{
+ "stand": "25.09.2024",
+ "schulen": [
+  {
+   "name": "Kantonsschule Büelrain",
+   "kuerzel": "KBW",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Enge",
+   "kuerzel": "KEN",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Freudenberg",
+   "kuerzel": "KFR",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Liceo Artistico",
+   "kuerzel": "Liceo",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Hohe Promenade",
+   "kuerzel": "KHP",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Hottingen",
+   "kuerzel": "KSH",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Im Lee",
+   "kuerzel": "KLW",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Küsnacht",
+   "kuerzel": "KKN",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Limmattal",
+   "kuerzel": "KSL",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Literargymnasium Rämibühl",
+   "kuerzel": "KRL",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Mathematisch-Naturwissenschaftliches Gymnasium Rämibühl",
+   "kuerzel": "KRM",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Realgymnasium Rämibühl",
+   "kuerzel": "KRR",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Rychenberg",
+   "kuerzel": "KRW",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Stadelhofen",
+   "kuerzel": "KST",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Uetikon am See",
+   "kuerzel": "KUE",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Uster",
+   "kuerzel": "KUS",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Wiedikon",
+   "kuerzel": "KWI",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Zimmerberg",
+   "kuerzel": "KZI",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Zürcher Oberland",
+   "kuerzel": "KZO",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Zürcher Unterland",
+   "kuerzel": "KZU",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonsschule Zürich Nord",
+   "kuerzel": "KZN",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Kantonale Maturitätsschule für Erwachsene",
+   "kuerzel": "KME",
+   "typ": "MS",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "AKAD College",
+   "kuerzel": "AKAD",
+   "typ": "",
+   "traeger": "privat",
+   "berechtigt": false,
+   "berechtigt_text": "nein"
+  },
+  {
+   "name": "Atelierschule Zürich",
+   "kuerzel": "Atelier",
+   "typ": "",
+   "traeger": "privat",
+   "berechtigt": false,
+   "berechtigt_text": "nein"
+  },
+  {
+   "name": "Freie Evangelische Schule",
+   "kuerzel": "FES",
+   "typ": "",
+   "traeger": "privat",
+   "berechtigt": false,
+   "berechtigt_text": "nein"
+  },
+  {
+   "name": "Freies Gymnasium Zürich",
+   "kuerzel": "FGZ",
+   "typ": "",
+   "traeger": "privat",
+   "berechtigt": false,
+   "berechtigt_text": "nein"
+  },
+  {
+   "name": "Gymnasium der freien katholischen Schulen Zürich",
+   "kuerzel": "FKSZ",
+   "typ": "",
+   "traeger": "privat",
+   "berechtigt": false,
+   "berechtigt_text": "nein"
+  },
+  {
+   "name": "Gymnasium Unterstrass",
+   "kuerzel": "Unterstrass",
+   "typ": "",
+   "traeger": "privat",
+   "berechtigt": false,
+   "berechtigt_text": "nein"
+  },
+  {
+   "name": "SIS Swiss International School Zürich",
+   "kuerzel": "SIS",
+   "typ": "",
+   "traeger": "privat",
+   "berechtigt": false,
+   "berechtigt_text": "nein"
+  },
+  {
+   "name": "Allgemeine Berufsschule Zürich",
+   "kuerzel": "ABZ",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Berufsmaturitätsschule Winterthur",
+   "kuerzel": "BMSW",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Berufsbildungsschule Winterthur",
+   "kuerzel": "BBW",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Baugewerbliche Berufsschule Zürich",
+   "kuerzel": "BBZ",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Berufsfachschule Winterthur",
+   "kuerzel": "BFS",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Berufsfachschule Uster",
+   "kuerzel": "BFSU",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Berufsmaturitätsschule Zürich",
+   "kuerzel": "BMZ",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Berufsschule Bülach",
+   "kuerzel": "BSB",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Berufsschule für Detailhandel und Pharmazie Zürich",
+   "kuerzel": "BSDPZ",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Berufsfachschule für Lernende mit Hör- und Kommunikationsbehinderung",
+   "kuerzel": "BSFH",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Berufsschule Mode und Gestaltung",
+   "kuerzel": "BSMG",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Berufsschule Rüti",
+   "kuerzel": "BSR",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Bildungszentrum Limmattal",
+   "kuerzel": "BZLT",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Bildungszentrum Zürichsee",
+   "kuerzel": "BZZ",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Careum Bildungszentrum",
+   "kuerzel": "CBZ",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "EB Zürich",
+   "kuerzel": "EB",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Gewerbliche Berufsschule Wetzikon",
+   "kuerzel": "GBW",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Juventus Schulen Medizin",
+   "kuerzel": "Juventus",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Wirtschaftsschule KV Zürich",
+   "kuerzel": "KV",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Schweizerische Fachschule für Mode und Gestaltung",
+   "kuerzel": "modeco",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Mechatronik Schule Winterthur",
+   "kuerzel": "MSW",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Schule für Gestaltung Zürich",
+   "kuerzel": "SfGZ",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Schweizerischer Maler- und Gipserunternehmer-Verband",
+   "kuerzel": "SMGV",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Schweizerische Textilfachschule",
+   "kuerzel": "STF",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Strickhof Kompetenzzentrum in Agrar-, Lebensmittel- und Hauswirtschaft",
+   "kuerzel": "Strickhof",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Tanz Akademie Zürich",
+   "kuerzel": "TAZ",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Technische Berufsschule Zürich",
+   "kuerzel": "TBZ",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "Fachschule Viventa",
+   "kuerzel": "Viventa",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Wirtschaftsschule KV Winterthur",
+   "kuerzel": "WSKVW",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Zentrum für Ausbildung im Gesundheitswesen",
+   "kuerzel": "ZAG",
+   "typ": "BB",
+   "traeger": "kantonal",
+   "berechtigt": true,
+   "berechtigt_text": "ja"
+  },
+  {
+   "name": "United School of Sports",
+   "kuerzel": "USS",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Minerva Talent+",
+   "kuerzel": "Minverva",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Sport Academy Zürich",
+   "kuerzel": "SAZ",
+   "typ": "BB",
+   "traeger": "privat m Leist.",
+   "berechtigt": true,
+   "berechtigt_text": "ja, bis auf Weiteres"
+  },
+  {
+   "name": "Schulisch Organisierte Grundbildung (SOG)",
+   "kuerzel": "",
+   "typ": "",
+   "traeger": "privat",
+   "berechtigt": false,
+   "berechtigt_text": "nein"
+  }
+ ]
+}

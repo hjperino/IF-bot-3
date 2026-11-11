@@ -1,0 +1,646 @@
+{
+ "stand": "2026-11-11",
+ "quelle": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht",
+ "innovationsfonds_projects": [
+  {
+   "title": "Prezenz – Fokussiert lernen im BYOD-Unterricht",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1221-prezenz-fokussiert-lernen-im-byod-unterricht",
+   "short_description": "Prezenz reduziert digitale Ablenkung im BYOD-Unterricht: Während Fokusphasen werden ablenkende Apps und Websites blockiert, benötigte Lernwerkzeuge bleiben verfügbar. Das Projekt untersucht, wie sich die Software didaktisch sinnvoll und wirksam in den Unterricht integrieren lässt."
+  },
+  {
+   "title": "Game Studies",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1206-game-studies",
+   "short_description": "Das Projekt etabliert Computerspiele im gymnasialen Deutschunterricht als kunstvoll gestaltetes Medium neben Literatur, Film und Theater."
+  },
+  {
+   "title": "Algebra können - Lernwirksame digitale Lernkontrollen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1202-algebra-koennen-lernwirksame-digitale-lernkontrollen",
+   "short_description": "Moodle und STACK stellen passgenaue formative Lernkontrollen zu «Arithmetik und Algebra» bereit und fördern selbstverantwortliches Lernen mit unmittelbarem Feedback."
+  },
+  {
+   "title": "Digitales Labor für MPAs",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1197-digitales-labor-fuer-mpas",
+   "short_description": "Interaktive OpenOlat-Lernpfade vertiefen die Labordiagnostik-Kenntnisse angehender medizinischer Praxisassistentinnen und Praxisassistenten durch praxisnahe digitale Übungen."
+  },
+  {
+   "title": "Kombinatorik 2.0",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1193-kombinatorik-2-0",
+   "short_description": "Ein digitales Kombinatorik-Lehrmittel verbindet Whiteboard-Animationen, interaktive Werkzeuge und einen KI-Chatbot für selbstständiges und individualisiertes Lernen."
+  },
+  {
+   "title": "Verhaltensökonomie",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1146-verhaltensoekonomie",
+   "short_description": "Digitale, KI-gestützte Lernmaterialien machen zentrale Konzepte und Experimente der Verhaltensökonomie für den Unterricht verständlich und praktisch nutzbar."
+  },
+  {
+   "title": "Effektiver OneNote-Unterricht",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1144-effektiver-onenote-unterricht",
+   "short_description": "Das Projekt zeigt exemplarisch, wie Lehrpersonen die digitalen Möglichkeiten von OneNote didaktisch wirksam und über die Funktion einer digitalen Wandtafel hinaus nutzen."
+  },
+  {
+   "title": "LernMatrix 4K+",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1140-lernmatrix-4k",
+   "short_description": "Projektbasierte Aufgaben und KI-gestützte Lernhilfen fördern mit der LernMatrix 4K+ fächerübergreifendes, vernetztes und individuell begleitetes Lernen."
+  },
+  {
+   "title": "Erweiterung und Praxistest eines KI-gestützten Intelligenten Tutoriellen Systems",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1133-erweiterung-und-praxistest-eines-ki-gestuetzten-intelligenten-tutoriellen-systems",
+   "short_description": "Das Folgeprojekt verbessert und erprobt ein KI-gestütztes tutorielles System, das personalisierte Lernpfade für heterogene Berufsfachschulklassen erstellt."
+  },
+  {
+   "title": "Innovation zwischen den Lernorten",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1101-innovation-zwischen-den-lernorten",
+   "short_description": "Generative KI verbindet Schule und Lehrbetriebe und schafft eine gemeinsame Plattform für Innovationen in der beruflichen Bildung der Auto- und Baubranche."
+  },
+  {
+   "title": "KI-Unterstützung bei der Vermittlung und dem Erwerb von Grundkompetenzen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1100-ki-unterstuetzung-bei-der-vermittlung-und-dem-erwerb-von-grundkompetenzen",
+   "short_description": "Das Projekt untersucht, wie KI den Erwerb von Lesen, Schreiben, Rechnen und Computerkenntnissen sinnvoll unterstützt und welche metakognitiven Fähigkeiten dafür nötig sind."
+  },
+  {
+   "title": "Code als künstlerisches Medium",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1092-code-als-kuenstlerisches-medium",
+   "short_description": "Creative Coding macht digitale Zusammenhänge spielerisch erfahrbar und stellt Unterrichtsmaterialien bereit, mit denen Lernende Code als künstlerisches Ausdrucksmittel nutzen."
+  },
+  {
+   "title": "BIM2Learn – Lehren und Lernen an virtuellen Bauobjekten",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1091-bim2learn-lehren-und-lernen-an-virtuellen-bauobjekten",
+   "short_description": "BIM sowie VR- und AR-Technologien ermöglichen Lernenden praxisnahe Erfahrungen an virtuellen Bauobjekten und bereiten sie auf digitale Anforderungen der Bauberufe vor."
+  },
+  {
+   "title": "BIM2FIELD für Handwerker",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1089-bim2field-fuer-handwerker",
+   "short_description": "Dreidimensionale BIM-Modelle ersetzen Papierpläne auf der Baustelle und erleichtern die digitale Zusammenarbeit zwischen den beteiligten Gewerken."
+  },
+  {
+   "title": "Sulzer-Areal interaktiv - Geschichte erleben per Actionbound",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1087-globale-industriegeschichte-interaktiv-erkunden-im-sulzer-areal",
+   "short_description": "Ein GPS-basierter Actionbound macht die Geschichte des Sulzer-Areals mit historischen Quellen, KI-generierten Zeitzeugenberichten und multimedialen Inhalten interaktiv erlebbar."
+  },
+  {
+   "title": "KI-gestützte Lernförderung",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1086-ki-gestuetzte-lernfoerderung",
+   "short_description": "KI-gestützte Lehrassistenten unterstützen Lehrpersonen bei der Individualisierung von Lernprozessen und fördern die gezielte Wiederholung sowie Anwendung von Unterrichtsinhalten."
+  },
+  {
+   "title": "Baustelle Berufsfachschule –ein Podcast",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1078-baustelle-berufsfachschule-ein-podcast",
+   "short_description": "Der Podcast «Baustelle Berufsfachschule» vermittelt relevante Informationen verständlich, bündelt Perspektiven aus dem Schulumfeld und erreicht eine breite Nutzergruppe."
+  },
+  {
+   "title": "MotionBase",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1076-motionbase",
+   "short_description": "Die Lernplattform MotionBase vermittelt Grundlagen, Konzepte und Bildstile für Bewegtbildproduktionen unabhängig von vorhandenen Softwarekenntnissen."
+  },
+  {
+   "title": "Digitale Lektüreförderung: Le Petit Prince mit einem OLAT-Lernpfad begleiten",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1075-digitale-lektuerefoerderung-le-petit-prince-mit-einem-olat-lernpfad-begleiten",
+   "short_description": "Interaktive OLAT-Lernpfade zu «Le Petit Prince» fördern mit Erklärvideos und Übungen gezielt das Lesen, Hören und Sprechen im Französischunterricht."
+  },
+  {
+   "title": "VR/AR-Brevet und -Demonstrator",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1073-vr-ar-brevet-und-demonstrator",
+   "short_description": "Ein Demonstrator befähigt Lehrpersonen zur Gestaltung eigener VR/AR-Sequenzen, während ein Brevet Lernende auf den sicheren Einsatz im Regelunterricht vorbereitet."
+  },
+  {
+   "title": "Badgesystem: Funktionen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1062-badgesystem-funktionen",
+   "short_description": "Ein digitales Übungssystem vermittelt mathematische Funktionen und motiviert Lernende mit Badges zu kontinuierlichem Üben."
+  },
+  {
+   "title": "eduPromptathon – mit KI die Probleme der Bildung lösen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1064-edupromptathon-mit-ki-die-probleme-der-bildung-loesen",
+   "short_description": "Interdisziplinäre Teams entwickeln in einem Promptathon praxisnahe KI-Lösungen für konkrete Herausforderungen der Berufsbildung und stärken dabei Zusammenarbeit und Vernetzung."
+  },
+  {
+   "title": "KI - die süsse Versuchung",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1063-ki-die-suesse-versuchung",
+   "short_description": "Eine neue Ära der Kreativität und Innovation einzuleiten, dank der Verknüpfung traditioneller Fertigkeiten mit KI - darum geht es in diesem Innovationsfondsprojekt."
+  },
+  {
+   "title": "Project Coach Bot (PCB)",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1061-project-coach-bot-pcb",
+   "short_description": "Der Project Coach Bot begleitet Lernende bei Projektarbeiten und entwickelt den BMA Coach Bot mit aktuellen KI-Modellen für weitere Einsatzfelder weiter."
+  },
+  {
+   "title": "Videos mit KI generieren",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1044-videos-mit-ki-generieren",
+   "short_description": "Ein Einführungskonzept mit Materialien befähigt Lernende, didaktisch aufbereitete Videos für ihre Lerndokumentation eigenständig und KI-gestützt zu produzieren."
+  },
+  {
+   "title": "HistoSwiss",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1042-histoswiss",
+   "short_description": "Lernende dokumentieren Veränderungen in ihrem Quartier digital und machen Brüche sowie Kontinuitäten der lokalen Geschichte sichtbar."
+  },
+  {
+   "title": "Urheberschaft geht alle etwas an",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/999-urheberschaft-geht-alle-etwas-an",
+   "short_description": "Das Projekt stärkt die Urheberrechtskompetenz aller Schulangehörigen und fördert einen verantwortungsvollen Umgang mit geschützten Inhalten."
+  },
+  {
+   "title": "Mit 3D-Druck Bildungsperspektiven öffnen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/998-mit-3d-druck-bildungsperspektiven-oeffnen",
+   "short_description": "Dieses Projekt zielt darauf ab, praktisch begabte Berufsleute die Welt der 3D-Modelle, -Druckprozesse und -Technologien zu eröffnen und sie in diesem Bereich zu befähigen."
+  },
+  {
+   "title": "Selbstverantwortlich Englisch lernen mit KI",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/997-selbstverantwortliches-lernen-mit-ki-im-englisch",
+   "short_description": "Lernende nutzen KI gezielt, um ihre englischen Sprachfertigkeiten zu verbessern und selbstständige Lernprozesse verantwortungsvoll zu gestalten."
+  },
+  {
+   "title": "Mission-to-Earth",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/996-mission-to-earth",
+   "short_description": "Das Projekt “Mission to Earth” hat zum Ziel, eine abwechslungsreiche, modular aufgebaute Lerneinheit zum Thema “Erde als Himmelskörper” zu erstellen."
+  },
+  {
+   "title": "Second Brain Fachgruppe Geomatik – Wissensdatenbank zur Erstellung und Aktualisierung von Unterrichtseinheiten",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/986-second-brain-fachgruppe-geomatik-wissensdatenbank-zur-erstellung-und-aktualisierung-von-unterrichtseinheiten",
+   "short_description": "Eine gemeinsame Wissensdatenbank unterstützt Geomatik-Lehrpersonen dabei, kompetenzorientierte Unterrichtsmodule kollaborativ zu entwickeln, zu aktualisieren und zu teilen."
+  },
+  {
+   "title": "Plan Your Learning",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/975-plan-your-learning",
+   "short_description": "Eine digitale Lernübersicht schafft Orientierung über Lernstand und Lernprozess und unterstützt Lernende bei der selbstständigen Planung ihres Lernens."
+  },
+  {
+   "title": "Intelligente tutorielle Systeme erstellen mit KI",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/978-intelligente-tutorielle-systeme-erstellen-mit-ki",
+   "short_description": "KI-gestützte tutorielle Systeme erzeugen dynamische, individuelle Lernpfade und ermöglichen personalisierte Lernbegleitung mit geringem Planungsaufwand."
+  },
+  {
+   "title": "Sprachlich niederschwellige ABU-Lernzielkontrollen für EBA auf Moodle",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/974-sprachlich-niederschwellige-abu-lernzielkontrollen-fuer-eba-auf-moodle",
+   "short_description": "Sprachlich niederschwellige Moodle-Lernzielkontrollen geben EBA-Lernenden direktes Feedback und passen Lernpfade gezielt an unterschiedliche sprachliche Voraussetzungen an."
+  },
+  {
+   "title": "Digi-Booster",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/984-digi-booster-2",
+   "short_description": "Kompetenzen im Umgang mit digitalen Technologien in Berufsschulen und Gymnasien gezielt erweitern, um auf weiterführende Schulen vorbereitet zu sein."
+  },
+  {
+   "title": "Smart Mathematics",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/985-smart-mathematics",
+   "short_description": "Detaillierte STACK-Auswertungen mit konkretem Feedback, verlinkten Lernmaterialien und zweisprachigen Inhalten fördern Berufsmaturitätslernende gezielt in Mathematik."
+  },
+  {
+   "title": "Integration von GitHub Classroom in Moodle",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1055-integration-von-github-classroom-in-moodle",
+   "short_description": "Die Integration von GitHub Classroom in Moodle verbindet Codeverwaltung und Lernplattform zu einer nahtlosen, effizienteren Lernerfahrung."
+  },
+  {
+   "title": "BMA Coach Bot (BCB)",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1012-bma-coach-bot-bcb",
+   "short_description": "Ein Chatbot begleitet Lernende individuell durch den BMA-Prozess und unterstützt sie bedarfsgerecht bei Planung, Umsetzung und Reflexion."
+  },
+  {
+   "title": "MediaBot",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/1053-mediabot",
+   "short_description": "Der MediaBot stärkt Persönlichkeitskompetenzen und unterstützt einen reflektierten, verantwortungsvollen Umgang mit Informationen und Medien."
+  },
+  {
+   "title": "Open-Notebook-Maturaprüfungen im Fremdsprachenunterricht",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/737-open-notebook-maturapruefungen-im-fremdsprachenunterricht",
+   "short_description": "Das Projekt entwickelt und erprobt Open-Notebook-Maturaprüfungen für den Fremdsprachenunterricht."
+  },
+  {
+   "title": "Das 3D-Scan Lab BBW - Photogrammetrie mit Drohnen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/835-das-3d-scan-lab-bbw-photogrammetrie-mit-drohnen",
+   "short_description": "Lernende vermessen Gebäude mit Drohnen und verarbeiten die photogrammetrisch erzeugten Daten für berufskundliche Anwendungen."
+  },
+  {
+   "title": "Makerspace 3D",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/807-makerspace-3d",
+   "short_description": "Der Makerspace 3D unterstützt Lernende, Berufsbildende und Lehrpersonen mit Geräten, Software und Begleitung bei Bildungsprojekten rund um VR und AR."
+  },
+  {
+   "title": "TBZ Media Lab",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/800-tbz-media-lab",
+   "short_description": "Das TBZ Media Lab bietet Lernenden und Lehrpersonen eine digitale Medienwerkstatt für die effiziente Produktion hochwertiger Lerninhalte."
+  },
+  {
+   "title": "Generation Z meets 4 K",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/799-generation-z-meets-4-k",
+   "short_description": "Mit Hilfe eines klassenübergreifenden Wettbewerbs soll die Kommunikation der Generation Z auf kreative und unterhaltende Art sichtbar gemacht werden. Die Wettbewerbsbeiträge sind #kreativ, #kommunikativ, #kollaborativ und #kritisch."
+  },
+  {
+   "title": "Das 3D-Scan Lab - Das 3D-Archiv - gestalten und üben",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/796-das-3d-scan-lab-das-3d-archiv-gestalten-und-ueben",
+   "short_description": "Ein digitales 3D-Archiv macht Objekte für den Berufskundeunterricht verfügbar und schafft Raum zum Gestalten, Dokumentieren und Üben."
+  },
+  {
+   "title": "Wissenschaftlich Texten 3.0",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/794-wissenschaftlich-texten-3-0",
+   "short_description": "Moodle-Module zum interdisziplinären und kompetenzorientierten Arbeiten"
+  },
+  {
+   "title": "Das 3D-Scan Lab BBW: Der Laserscan - Räume digital abbilden",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/793-das-3d-scan-lab-bbw-der-laserscan-raeume-digital-abbilden",
+   "short_description": "Lernende scannen Räume digital und messen sowie analysieren die gewonnenen Daten anschliessend in einem CAD-Programm."
+  },
+  {
+   "title": "Metaverse Collaboratory - Entdecke die Möglichkeiten",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/792-metaverse-collaboratory-entdecke-die-moeglichkeiten",
+   "short_description": "Ein virtuelles Collaboratory macht kostenintensive technische Lernobjekte digital zugänglich und ermöglicht gemeinsames, praxisnahes Lernen in der beruflichen Bildung."
+  },
+  {
+   "title": "LernAbenteuer BIM (Building Information Modeling)",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/791-lernabenteuer-bim-building-information-modeling",
+   "short_description": "Lernende der Fachrichtung Architektur erkunden Building Information Modeling in einem praxisnahen Experiment und entwickeln ein grundlegendes Verständnis digitaler Bauprozesse."
+  },
+  {
+   "title": "Lehren und Lernen in neuen Dimensionen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/779-lehren-und-lernen-in-neuen-dimensionen",
+   "short_description": "Dieses Projekt soll die aktuellen Themen wie Bewegen und Arbeiten in dreidimensionalen Räumen (AR/VR bzw. erweiterte und virtuelle Realität) im Allgemeinen, künstliche Intelligenz (AI) sowie das Sicherstellen digitaler Assets (NFT) aufnehmen und in die Schule bringen."
+  },
+  {
+   "title": "Videocalls im Fremdsprachenunterricht",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/772-videocalls-im-fremdsprachenunterricht",
+   "short_description": "Videocalls ermöglichen authentische Begegnungen in der Fremdsprache und schaffen reale Kommunikationsanlässe für Lernende."
+  },
+  {
+   "title": "Podcast - Mein Leben",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/771-podcast-mein-leben",
+   "short_description": "Lernende machen ihre Lebenswelt in selbst produzierten Podcastbeiträgen hörbar und stärken dabei Ausdruck, Medienkompetenz und gegenseitiges Verständnis."
+  },
+  {
+   "title": "LifeLongLearning",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/770-lifelonglearning",
+   "short_description": "Ein kombiniertes Lernangebot vermittelt Strategien und Techniken für selbstständiges, nachhaltiges und effizientes Lernen über die Schulzeit hinaus."
+  },
+  {
+   "title": "Kleidertausch an der Berufsfachschule",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/769-kleidertausch-an-der-berufsfachschule",
+   "short_description": "Ein schulischer Kleidertausch verlängert die Nutzungsdauer von Kleidungsstücken, schont Ressourcen und macht nachhaltiges sowie soziales Handeln praktisch erfahrbar."
+  },
+  {
+   "title": "Mathematik smart üben und prüfen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/768-mathematik-smart-ueben-und-pru-fen",
+   "short_description": "STACK-Aufgaben ermöglichen digitales, automatisiert ausgewertetes Üben und Prüfen in Mathematik und ergänzen den papierlosen Unterricht mit unmittelbarem Feedback."
+  },
+  {
+   "title": "Konflikttraining",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/751-konflikttraining",
+   "short_description": "Alltagsnahe Online- und Offline-Beispiele helfen Lernenden, Konflikte zu erkennen und geeignete Strategien für eine professionelle Bewältigung zu entwickeln."
+  },
+  {
+   "title": "TransScolar",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/750-transscolar",
+   "short_description": "Eine schulübergreifende Klimakonferenz verbindet praxisnahes Lernen mit Zusammenarbeit und stärkt dabei fachliche sowie überfachliche Handlungskompetenzen."
+  },
+  {
+   "title": "Heterogenität coachen mit digitalen Hilfsmitteln",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/745-heterogenitaet-coachen-mit-digitalen-hilfsmitteln",
+   "short_description": "Digitale Organisationsstrukturen erleichtern die persönliche und individuelle Begleitung heterogener Lerngruppen."
+  },
+  {
+   "title": "Digitale Kompetenzen gezielt erweitern in Gymnasien und Berufsschulen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/726-digitale-kompetenzen-gezielt-erweitern-in-gymnasien-und-berufsschulen",
+   "short_description": "Lernende ermitteln ihre digitalen Kompetenzen, vergleichen sie mit der Klasse und entwickeln ausgewählte Bereiche mit passenden Lern-Challenges weiter."
+  },
+  {
+   "title": "Deutschtraining – mittels eines Orientierungstests",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/743-deutschtraining-mittels-eines-orientierungstests",
+   "short_description": "Mittels eines Orientierungstests evaluieren die Lernenden ihre Grammatik-, Lese- und Schreibkompetenzen. Danach absolvieren sie ein auf ihre Schwächen abzielendes Förderprogramm."
+  },
+  {
+   "title": "Grenzenlos mit LTI",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/742-grenzenlos-mit-lti",
+   "short_description": "Den digitalen Austausch zwischen den Schulen vereinfachen und intensivieren."
+  },
+  {
+   "title": "Moodle Fragensammlung",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/741-moodle-fragensammlung",
+   "short_description": "Eine gemeinsame Moodle-Fragensammlung und ein Importwerkzeug vereinfachen die Erstellung, den Austausch und die Nutzung digitaler Prüfungsfragen über verschiedene Fachrichtungen hinweg."
+  },
+  {
+   "title": "Multiverse – der vierte Lernort",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/740-multiverse-der-vierte-lernort",
+   "short_description": "VR- und AR-Technologien schaffen einen vierten Lernort, an dem virtuelle Lernwelten, KI-Technologien und Avatare für gemeinsames und praxisnahes Lernen genutzt werden."
+  },
+  {
+   "title": "Moodle-Kurs \"Grundkompetenz in Mathematik\"",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/739-moodle-kurs-grundkompetenz-in-mathematik",
+   "short_description": "Digitale Jahrgangsprüfung und zufallserzeugte formative Tests im Fach Mathematik"
+  },
+  {
+   "title": "Digitalisierung Sprachförderungsprogramm ABZ",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/738-digitalisierung-sprachfoerderungsprogramm-abz",
+   "short_description": "Ein digitales Sprachförderungsprogramm bietet Übungen zu häufigen Sprachproblemen und Textsorten und ermöglicht Lernenden ein gezieltes, selbstständiges Training."
+  },
+  {
+   "title": "Virtual Reality zu den Themen \"Wohnungsübernahme\" (Allgemeinbildung) und \"Wareneingang\" (Berufskunde)",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/736-virtual-reality-themen-wohnungsuebernahme-allgemeinbildung-und-wareneingang-berufskunde",
+   "short_description": "VR-Lernumgebungen zu Wohnungsübernahme und Wareneingang erleichtern Berufslernenden den Zugang zu Lerninhalten und schaffen zeitgemässe, praxisnahe Lernangebote."
+  },
+  {
+   "title": "Kriminalistik als Werkstattunterricht zum Thema Trennmethoden",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/735-kriminalistik-als-werkstattunterricht-zum-thema-trennmethoden",
+   "short_description": "Mit chemischen Trennmethoden den Verbrecherinnen und Verbrechern auf die Spur kommen."
+  },
+  {
+   "title": "Interaktive Lernumgebung ABU 4.0 auf abukompass.ch",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/727-interaktive-lernumgebung-abu-4-0-auf-abukompass-ch",
+   "short_description": "Gemeinsam entwickelte Moodle-Lerneinheiten ergänzen den ABU-Unterricht und lassen sich von Berufsfachschulen flexibel in schuleigene Lernbereiche integrieren."
+  },
+  {
+   "title": "Find The Code Home (Online-Spiel)",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/722-find-the-code-home-online-spiel",
+   "short_description": "Ein digitales Escape Game verbindet Gamification mit handlungskompetenzorientierten Aufgaben für den Allgemeinbildungsunterricht und die Berufskunde Logistik."
+  },
+  {
+   "title": "Koordinativ – sportlich – virtuell",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/723-koordinativ-sportlich-virtuell",
+   "short_description": "Welches Potential haben VR-Brillen im Sportunterricht? Das zu klären ist Ziel dieses Projekts."
+  },
+  {
+   "title": "Digitale Hilfsmittel und sprachliche Heterogenität EBA",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/709-digitale-hilfsmittel-und-sprachliche-heterogenitaet-eba",
+   "short_description": "Sprachförderung mit Hilfe digitaler Hilfsmittel in der 2-jährigen Grundbildung mit eidgenössischem Berufsattest EBA"
+  },
+  {
+   "title": "Arbeiten mit digitalen Kompetenzrastern",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/707-arbeiten-mit-digitalen-kompetenzrastern",
+   "short_description": "Ein digital verlinktes Kompetenzraster unterstützt angehende Coiffeusen und Coiffeure beim Übergang von der EBA- in die EFZ-Ausbildung."
+  },
+  {
+   "title": "Digitaler Lernraum zur Vereinheitlichung kompetenzorientierten und selbstorganisierten Lernens auf gymnasialer Stufe",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/696-digitaler-lernraum-zur-vereinheitlichung-kompetenzorientierten-und-selbstorganisierten-lernens-auf-gymnasialer-stufe",
+   "short_description": "Digitale «Missions» schaffen eine einheitliche Lernstruktur für kompetenzorientierten Unterricht und fördern selbstorganisiertes Lernen auf gymnasialer Stufe."
+  },
+  {
+   "title": "Dynamische konstruktive Geometrie mit GeoGebra",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/694-dynamische-konstruktive-geometrie-mit-geogebra",
+   "short_description": "Eine erprobte Unterrichtssequenz mit Theorie und Übungen vermittelt konstruktive Geometrie mit GeoGebra und stellt übertragbare Materialien für Lehrpersonen bereit."
+  },
+  {
+   "title": "Bücherrégal-ité",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/693-buecherregal-ite",
+   "short_description": "Ein E-Learning-Lehrgang hinterfragt die Dominanz männlicher Autoren im Literaturkanon und untersucht Werke von Autorinnen im Kontext von Rezeptionsgeschichte und Kanonbildung."
+  },
+  {
+   "title": "Python: Arbeitsblätter «Programmieren ausserhalb des Faches Informatik»",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/691-python-arbeitsblaetter-programmieren-ausserhalb-des-faches-informatik",
+   "short_description": "Es sollen «Arbeitsblätter» in Form von Jupyter Notebooks erstellt werden, mit denen die in den ersten zwei Jahren des Kurzgymnasiums erworbenen Programmierfähigkeiten in anderen Fächern nutzbar gemacht werden können."
+  },
+  {
+   "title": "Digitale Prüfungsfragensammlung für Spanisch",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/516-digitale-pruefungsfragensammlung-fuer-spanisch",
+   "short_description": "Digitale, interaktive Übungen und Prüfungsfragen für spanische Grammatik und Vokabular"
+  },
+  {
+   "title": "Mathe-Ninja (einfach schöne Videos)",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/424-mathe-ninja-einfach-schoene-videos",
+   "short_description": "Lernvideos für selbstständiges Lernen im Mathematikunterricht"
+  },
+  {
+   "title": "Escape World Trigonometrie",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/558-escape-world-trigonometrie",
+   "short_description": "Interaktives Lernabenteur durch die zentralen Inhalte der Trigonometrie"
+  },
+  {
+   "title": "Fotogrammetrie",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/557-fotogrammetrie",
+   "short_description": "3D-Modelle entwickeln mit Fotogrammetrie"
+  },
+  {
+   "title": "Molekularvisualisierung Chemie",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/556-molekularvisualisierung-chemie",
+   "short_description": "Bindigkeit, Geometrie und zwischenmolekulare Kräfte von Molekülen im computergestützten (Selbst-)Unterricht in Chemie"
+  },
+  {
+   "title": "Zufallsübungen Physik",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/555-zufallsuebungen-physik",
+   "short_description": "Zufallsgenerierte Aufgaben für entdeckendes Lernen, Üben und Prüfen in Physik"
+  },
+  {
+   "title": "Design Thinking am Bildungszentrum Limmattal",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/553-design-thinking-am-bildungszentrum-limmattal",
+   "short_description": "Mit dem Design Thinking-Ansatz die 4Ks entwickeln und bereit sein für den Arbeitsmarkt der Zukunft"
+  },
+  {
+   "title": "Gamification Bruchterme",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/554-gamification-bruchterme",
+   "short_description": "Die SuS arbeiten eigenständig und in teilweise selbstbestimmter Reihenfolge bis zu 17 Module durch, in denen sie sich die Binomischen Formeln, das Faktorisieren von Polynomen und das Kürzen & Rechnen mit Bruchtermen aneignen."
+  },
+  {
+   "title": "Handlungskompetenzorientiertes Qualifikationsverfahren im ABU",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/549-handlungskompetenzorientiertes-qualifikationsverfahren-im-abu",
+   "short_description": "Die Lernenden sollen während der Ausbildung im Allgemeinbildungsunterricht anhand konkreter Handlungssituationen lebensnahe Kompetenzen erwerben, die für ihren Berufs- und Lebensalltag notwendig sind."
+  },
+  {
+   "title": "Ein MOOC fürs Lesen: Lesen - digital kollaborativ",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/533-ein-mooc-fuers-lesen-lesen-digital-kollaborativ",
+   "short_description": "Das Potential vorhandener Textarchive für lustvolles, individuelles und kollaboratives Lesen nutzen."
+  },
+  {
+   "title": "Zürich im Mittelalter",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/542-zuerich-im-mittelalter",
+   "short_description": "Karten erzählen Geschichte. Ein Stadtplan veranschaulicht verschiedenste historische Fakten. Dank digitaler Technologie können die verschiedenen Schichten der Stadtgeschichte sichtbar gemacht werden."
+  },
+  {
+   "title": "Caput 4D",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/541-caput-4d",
+   "short_description": "Das vorliegende Projekt Caput 4D hat das Ziel, umfassend in das digitale Modellieren mit Cinema 4D einzuführen."
+  },
+  {
+   "title": "AR und VR Potentiale erkunden",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/540-ar-und-vr-potentiale-erkunden",
+   "short_description": "Potential AR und VR ausschöpfen: Die Technologien der Augmented Reality (AR) und Virtual Reality (VR) haben bereits einen hohen Standard erreicht. Im Unterricht sind sie aber nach wie vor eine Randerscheinung."
+  },
+  {
+   "title": "¡vocabolairyum!",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/537-vocabolairyum",
+   "short_description": "Eine individualisierbare, vernetzte und mehrsprachige Anki-Lösung fördert nachhaltiges Wörterlernen, Sprachverständnis und Sprachlernkompetenz."
+  },
+  {
+   "title": "Denkmäler im Geschichtsunterricht – Recherche und Diskussion, digital und analog",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/535-denkmaeler-im-geschichtsunterricht-recherche-und-diskussion-digital-und-analog",
+   "short_description": "Ein projektartiger und produktionsorientierter Umgang mit Denkmälern im Geschichtsunterricht"
+  },
+  {
+   "title": "MOOCS Französisch A2",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/531-moocs-franzoesisch-a2",
+   "short_description": "Die Lernenden erarbeiten sich vor dem Eintritt in die Berufsmaturitätsschule das Ausgangniveau A2 in einem von LP begleiteten E-Learning-Programm."
+  },
+  {
+   "title": "BlenderBot",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/532-blenderbot",
+   "short_description": "Ein Chatbot unterstützt das Lehrgespräch und soll dessen Effizienz sowie Wirksamkeit im Unterricht erhöhen."
+  },
+  {
+   "title": "Gamification des Übungsteils des Unterrichts",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/529-gamification-des-uebungsteils-des-unterrichts",
+   "short_description": "Gamification gestaltet Übungsphasen selbstbestimmter und motivierender: Lernende wählen passende Aufgaben, arbeiten im eigenen Tempo und reflektieren ihren Lernprozess."
+  },
+  {
+   "title": "Maschinelle Übersetzungstools zur Förderung von Sprachmittlungs-Kompetenz",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/406-maschinelle-uebersetzungstools-sprachmittlungskompetenz",
+   "short_description": "Ein Dossier zeigt Potenziale und Grenzen maschineller Übersetzung auf und bietet konkrete, auf verschiedene Fremdsprachen übertragbare Unterrichtsszenarien."
+  },
+  {
+   "title": "Nachrichten-Journalismus und Digitalisierung",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/423-nachrichtenjournalismus-und-digitalisierung",
+   "short_description": "Ziel des Projekts „Informationsjournalismus und Digitalisierung“ ist, den Schülerinnen und Schülern den Wert professioneller Informationsmedien deutlich zu machen und ihre Medienkompetenz zu fördern durch Aufgabenstellungen, die eine vertiefte Analyse medial vermittelter Nachrichten verlangen."
+  },
+  {
+   "title": "Projektwoche",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/488-projektwoche",
+   "short_description": "Digitale Vorbereitung, Durchführung und Nachbearbeitung einer Projektwoche"
+  },
+  {
+   "title": "Digitalisierung von Physikprüfungen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/523-projekt-zur-digitalisierung-von-physikpruefungen",
+   "short_description": "Digitale Gruppenprüfungen fördern im Physikunterricht den fachlichen Austausch unter den Lernenden. Dieses Projekt erstellt solche Physikaufgaben auf isTest2 und stellt sie Fachkolleg:innen zur Verfügung."
+  },
+  {
+   "title": "Postkolonialer Ansatz im Geschichtsunterricht",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/512-postkolonialer-ansatz-im-geschichtsunterricht",
+   "short_description": "Plattform: Postkolonialer Ansatz im Geschichtsunterricht"
+  },
+  {
+   "title": "Biologie-Schatzsuche am Zoologischem Museum der Universität Zürich",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/510-biologie-schatzsuche-am-zoologischem-museum-der-universitaet-zuerich",
+   "short_description": "Eine digitale Schatzsuche führt Lernende spielerisch durch das Zoologische Museum und verbindet biologische Fachinhalte mit interaktiven Aufgaben."
+  },
+  {
+   "title": "filmanalyse.ch",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/511-filmanalyse-schule-ch",
+   "short_description": "Filme analysieren mit Hilfe der digitalen Lernplattform filmanalyse-schule.ch"
+  },
+  {
+   "title": "AMOЯ: Ein digitales Lehrmittel für Latein auf der Unterstufe",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/506-amo-ein-digitales-lehrmittel-fuer-latein-auf-der-unterstufe",
+   "short_description": "Das Projekt AMOЯ ist ein digitales Lehrmittel für den Lateinunterricht, das klassische Spracharbeit mit interaktiven digitalen Lernformen verbindet."
+  },
+  {
+   "title": "LernChallenges",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/494-lernchallenges",
+   "short_description": "LernChallenges fördern einen handlungsorientierten, motivierenden Unterricht und unterstützen Lernende dabei, Kompetenzen selbstständig zu entwickeln."
+  },
+  {
+   "title": "Lernprodukte statt Prüfungen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/492-lernprodukte-statt-pruefungen",
+   "short_description": "Die Lernenden erstellen individuelle Lernprodukte mit direktem Bezug zur Lebenswelt und Arbeitspraxis. Manchmal wird aus den einzelnen Produkten sogar ein ganzes Gemeinschaftswerk. Das ist mehr, als es jede Prüfung vermag."
+  },
+  {
+   "title": "Vektorgeometrie",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/432-vektorgeometrie",
+   "short_description": "Das Ziel des Projekts besteht darin, ein interaktives Selbststudium für den Einstieg in die Vektorgeometrie aufzubauen."
+  },
+  {
+   "title": "Satellitengestützte Fernerkundung mit dem EO-Browser",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/407-satellitengestuetzte-fernerkundung-mit-dem-eo-browser",
+   "short_description": "Mit dem EO-Browser analysieren Lernende Satellitenbilder, verstehen Grundlagen der Fernerkundung und wenden geografisches sowie naturwissenschaftliches Wissen praktisch an."
+  },
+  {
+   "title": "Der explorative Prozess des Lesens",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/408-der-explorative-prozess-des-lesens",
+   "short_description": "Ein Blended-Learning-Konzept aktiviert Lernende bei der selbstverantwortlichen Auseinandersetzung mit anspruchsvollen Texten und fördert die gemeinsame Überprüfung ihrer Leseerkenntnisse."
+  },
+  {
+   "title": "Gamification",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/419-gamification",
+   "short_description": "Gamifizierte Lektürebearbeitung fürs selbstorganisierte Lernen"
+  },
+  {
+   "title": "Nationalsozialismus-Holocaust",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/420-nationalsozialismus-holocaust",
+   "short_description": "Dieses Projekt erstellt ein digitales Lernangebot zum Thema Nationalsozialismus und Holocaust, welches in thematische Module gegliedert ist. Jedes Modul enthält aufbereitete Lernunterlagen, Zielsetzungen, Aufgabenstellungen, Lösungen sowie einen didaktischen Kommentar. Das Lernangebot ermöglicht..."
+  },
+  {
+   "title": "Virtual Reality App Literaturgeschichte",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/421-virtual-reality-app-literaturgeschichte",
+   "short_description": "In diesem Projekt soll eine Virtual Reality (VR)-App entwickelt werden, mit welcher Schülerinnen und Schüler zu einer virtuellen Reise durch die Literaturgeschichte aufbrechen und dabei unterschiedliche Charaktere und Lokalitäten entdecken und interaktiv kennenlernen können."
+  },
+  {
+   "title": "Salze-Metalle-Stöchiometrie",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/425-salze-metalle-stoechiometrie",
+   "short_description": "Ziel dieses Projekts ist die Erstellung einer digitalen Selbstlerneinheit über Salze-Metalle-Stöchiometrie."
+  },
+  {
+   "title": "Digitales Leitprogramm Säuren und Basen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/428-digitales-leitprogramm-saeuren-und-basen",
+   "short_description": "Ein digitales Leitprogramm vermittelt das Thema Säuren und Basen selbstständig, interaktiv und im individuellen Lerntempo."
+  },
+  {
+   "title": "GIS in der Praxis",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/429-gis-in-der-praxis",
+   "short_description": "Lernende erwerben grundlegende GIS-Kompetenzen und wenden sie mit ArcGIS Online praxisnah auf die Themen Erdbeben und Vulkanismus an."
+  },
+  {
+   "title": "Hypervideos zur Förderung interkultureller Sensibilität und pragmatischer Kompetenz",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/437-hypervideos-zur-foerderung-interkultureller-sensibilitaet-und-pragmatischer-kompetenz",
+   "short_description": "In diesem Projekt werden authentische Videos für den Fremdsprachenunterricht zu Hypervideos angereichert mit dem Ziel, die interkulturelle Sensibilität und die pragmatische Kompetenz zu fördern."
+  },
+  {
+   "title": "Asterisk* – Wort für Wort nach den Sternen greifen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/438-asterisk-wort-fu-r-wort-nach-den-sternen-greifen",
+   "short_description": "Eine Online-Plattform erschliesst Wortschatz ausgehend von Basiswörtern durch Ableitung und Komposition und eröffnet so einen neuen Zugang zur Wortschatzarbeit."
+  },
+  {
+   "title": "U2 goes digital",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/455-u2-goes-digital",
+   "short_description": "Durch eine neue Arbeitsweise sollen einerseits die verschiedenen Niveaus bzw. der unterschiedliche Unterstützungsbedarf berücksichtigt und andererseits die Möglichkeit geschaffen werden, interessierten Jugendlichen zusätzliche Aspekte der Physik zugänglich zu machen."
+  },
+  {
+   "title": "Arbeit mit raumbezogenen, digitalen Daten im Geographieunterricht",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/456-arbeit-mit-raumbezogenen-digitalen-daten-im-geografieunterricht",
+   "short_description": "Unterrichtseinheiten zur Verwendung raumbezogener Daten mit einem geografischen Informationssystem (GIS) im Geografie-Unterricht"
+  },
+  {
+   "title": "Unterrichtsmodul Generative Gestaltung/Creative Coding",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/466-unterrichtsmodul-generative-gestaltung-creative-coding",
+   "short_description": "Konzeption und Durchführung eines exemplarischen Unterrichtsmoduls zur Generativen Gestaltung / Creative Coding im Rahmen des gymnasialen Unterrichts."
+  },
+  {
+   "title": "www.ict-latein.ch: Eine Website für ICT-Anwendungen im altsprachlichen Unterricht",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/470-datenbank-fuer-ict-anwendungen-im-altsprachlichen-unterricht",
+   "short_description": "In der Webseite www.ict-latein.ch werden aktuelle Tools, welche sich für den altsprachlichen Unterricht eignen, zusammengestellt, so dass interessierte Lehrpersonen eine Orientierungshilfe erhalten."
+  },
+  {
+   "title": "Instruktionsvideos im Chemielabor",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/479-instruktionsvideos-im-chemielabor-1",
+   "short_description": "Produktion und Einsatz von Instruktionsvideos im Chemielabor, um den Lernprozess gemäss den individuellen Voraussetzungen zu unterstützen."
+  },
+  {
+   "title": "Moderne Prüfungen auf stromkompass.ch",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/484-moderne-pruefungen-auf-stromkompass-ch",
+   "short_description": "Digitale Lerninhalte und Prüfungen auf stromkompass.ch verbinden Elektrotechnik mit kooperativem, praxisorientiertem Lernen und können schulübergreifend genutzt werden."
+  },
+  {
+   "title": "Digitale Transformation der klassischen BM-Abschlussprüfung",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/486-digitale-transformation-der-klassischen-bm-abschlusspruefung",
+   "short_description": "In diesem Projekt geht es um den Einsatz und die Evaluation des Prüfungs-Sticks der Uni Bern (Lernstick.ch) und des Safe Exam Browsers (SEB) der ETHZ zur Durchführung einer sicheren Abschlussprüfung in einem BYOD-Setting."
+  },
+  {
+   "title": "Qualitatives Lernen",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/495-qualitatives-lernen",
+   "short_description": "Wer weg will vom Theoriefokus, Noten, Fachseparierung, fixem Stundenplan und Einzelkämpfertum in der Lehre, findet in diesem Projekt Ideen und Unterstützung."
+  },
+  {
+   "title": "Agile Schule",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/496-agile-schule",
+   "short_description": "Das Projekt stärkt die Kultur der Digitalität, indem es alle Beteiligten in die agile Weiterentwicklung der Schule einbezieht."
+  },
+  {
+   "title": "Einführung einer digitalen QV-Abschlussprüfung im Fach Allgemeinbildung",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/497-einfuehrung-einer-digitalen-qv-abschlusspruefung-im-fach-allgemeinbildung",
+   "short_description": "Eine digitale QV-Abschlussprüfung überträgt die im Unterricht etablierten digitalen Arbeitsformen konsequent auf das Qualifikationsverfahren im Allgemeinbildungsunterricht."
+  },
+  {
+   "title": "Bob, the Carbot (der EBA-Roboter)",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/498-bob-the-carbot-der-eba-roboter",
+   "short_description": "Motto: Mein Chatbot für deine Werkstatt!"
+  },
+  {
+   "title": "E-Portfolio - eingebettet in MS365Education",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/500-e-portfolio-eingebettet-in-ms365education",
+   "short_description": "Ein überfachliches elektronisches Entwicklungsportfolio"
+  },
+  {
+   "title": "LaborE",
+   "url": "https://www.dlh.zh.ch/home/innovationsfonds/projektvorstellungen/uebersicht/670-labore",
+   "short_description": "Lernende dokumentieren Chemieexperimente als selbst erstellte E-Tutorials und verbinden dabei praktisches Arbeiten mit verständlicher mündlicher Fachkommunikation."
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Innovationsfonds-Check – Digital Learning Hub Sek II</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--dunkel:#1d3437;--orange:#ec6608;--orange-hell:#f9d1b4;--violett:#8a5da4;--violett-mitte:#b396c4;--violett-hell:#dccee4;--grund:#faf7fb;--weiss:#fff;--rot:#b3261e;--gruen:#2e7d4f}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--dunkel);background:var(--grund);line-height:1.5}
+.band{height:8px;background:linear-gradient(90deg,var(--violett),var(--orange))}
+header{background:var(--weiss);border-bottom:1px solid var(--violett-hell)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+header .wrap{padding-top:22px;padding-bottom:20px}
+.dach{font-size:.85rem;color:var(--violett);font-weight:600;letter-spacing:.02em;margin:0 0 4px}
+h1{font-size:clamp(1.6rem,4vw,2.3rem);font-weight:300;margin:0;line-height:1.15}
+.lead{margin:10px 0 0;max-width:62ch}
+main{padding:24px 0 48px}
+.karte{background:var(--weiss);border:1px solid var(--violett-hell);border-radius:10px;padding:20px;margin-bottom:20px}
+h2{font-size:1.25rem;color:var(--violett);margin:28px 0 10px}
+.karte>h2:first-child{margin-top:0}
+h3{font-size:1.02rem;margin:18px 0 6px}
+ol.schritte{margin:0;padding-left:1.2em}
+ol.schritte li{margin:4px 0}
+label{font-weight:600;display:block;margin:14px 0 6px}
+input[type=file],select{width:100%;max-width:520px;padding:10px;border:1px solid var(--violett-mitte);border-radius:6px;background:var(--weiss);font:inherit;color:inherit}
+.check{display:flex;gap:10px;align-items:flex-start;margin:16px 0;font-weight:400;max-width:75ch}
+.check input{margin-top:4px;width:18px;height:18px;flex:none;accent-color:var(--violett)}
+button{font:inherit;font-weight:600;border:0;border-radius:6px;padding:12px 22px;cursor:pointer;background:var(--orange);color:#fff}
+button:hover{filter:brightness(.93)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--violett);outline-offset:2px}
+button[disabled]{background:#b9b9c2;cursor:not-allowed}
+button.zweit{background:var(--weiss);color:var(--violett);border:1.5px solid var(--violett)}
+.knoepfe{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}
+a{color:var(--violett)}
+.fehler{background:#fdecea;border:1px solid var(--rot);color:#7a1a14;border-radius:8px;padding:12px 14px;margin:14px 0}
+.warten{display:flex;gap:14px;align-items:center;margin:14px 0}
+.kreis{width:26px;height:26px;border:3px solid var(--violett-hell);border-top-color:var(--orange);border-radius:50%;animation:dreh 1s linear infinite;flex:none}
+@keyframes dreh{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.kreis{animation:none}}
+.disclaimer{background:#f4eff7;border:1px solid var(--violett-hell);border-left:5px solid var(--violett);border-radius:6px;padding:12px 14px;margin:14px 0}
+.meta{color:#4a5a5c;font-size:.93rem}
+.hinweis{background:#fff6ee;border-left:5px solid var(--orange);padding:8px 12px;border-radius:4px}
+.tabwrap{overflow-x:auto;border:1px solid var(--violett-hell);border-radius:8px}
+table{border-collapse:collapse;width:100%;min-width:720px;font-size:.93rem}
+th{background:var(--violett);color:#fff;text-align:left;padding:8px 10px;font-weight:600}
+td{padding:8px 10px;border-top:1px solid var(--violett-hell);vertical-align:top}
+tbody tr:nth-child(even){background:var(--grund)}
+table.pruef td:nth-child(1){width:19%;font-weight:600}
+table.pruef td:nth-child(2){width:11%;white-space:nowrap}
+tr.st-erfuellt .status{color:var(--gruen)}
+tr.st-teilweise .status{color:#b04d00}
+tr.st-nicht_erfuellt .status{color:var(--rot)}
+tr.st-nicht_beurteilbar .status{color:#5b5b6b}
+.status{font-weight:600}
+.lokal{display:block;font-weight:400;font-size:.75rem;color:#5b5b6b}
+footer{border-top:1px solid var(--violett-hell);background:var(--dunkel);color:#fff;padding:18px 0;font-size:.88rem}
+footer a{color:#fff}
+[hidden]{display:none!important}
+@media print{header,.band,#eingabe,footer,.knoepfe{display:none}.karte{border:0;padding:0}}
+</style>
+</head>
+<body>
+<div class="band"></div>
+<header><div class="wrap">
+  <p class="dach">Digital Learning Hub Sek II · Innovationsfonds</p>
+  <h1>Innovationsfonds-Check</h1>
+  <p class="lead">Prüfen Sie Ihren ausgefüllten Projektantrag selbst, bevor Sie ihn einreichen. Sie erhalten unverbindliche Hinweise zu formalen, strukturellen und inhaltlichen Lücken.</p>
+</div></header>
+
+<main><div class="wrap">
+
+<section class="karte" id="eingabe" aria-labelledby="t-eingabe">
+  <h2 id="t-eingabe">Antrag hochladen</h2>
+  <ol class="schritte">
+    <li>Ausgefülltes Projekteingabeformular wählen (Digital Explorer, Learning Incubator, Hub Scaler oder das bisherige Formular 6.1).</li>
+    <li>Hinweis zur Datenverarbeitung bestätigen.</li>
+    <li>«Prüfen» klicken. Die Prüfung dauert in der Regel ein bis zwei Minuten.</li>
+  </ol>
+  <p>Die leeren Formulare finden Sie auf der Seite <a href="https://www.dlh.zh.ch/home/innovationsfonds/projektfoerderung" target="_blank" rel="noopener">Projektförderung</a>.</p>
+
+  <form id="formular" novalidate>
+    <label for="datei">Projektantrag (.docx oder .pdf)</label>
+    <input type="file" id="datei" name="datei" accept=".docx,.pdf,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document" required>
+    <p class="meta">Empfohlen ist die Word-Datei: Darin lassen sich Textlängen, Checkboxen und Unterschriften zuverlässiger prüfen als im PDF.</p>
+
+    <label for="typ">Formular</label>
+    <select id="typ" name="formular">
+      <option value="auto">automatisch erkennen (empfohlen)</option>
+      <option value="D">Digital Explorer</option>
+      <option value="L">Learning Incubator</option>
+      <option value="H">Hub Scaler</option>
+      <option value="61">Bisheriges Formular Version 6.1</option>
+    </select>
+
+    <label class="check" for="ok">
+      <input type="checkbox" id="ok" name="einwilligung" value="ja" required>
+      <span>Ich habe verstanden: Der Antragstext wird zur Prüfung an eine KI-Schnittstelle (OpenAI) übermittelt. Namen, E-Mail-Adressen und Telefonnummern aus dem Kapitel «Projektteam» werden vorher entfernt bzw. geschwärzt; das Kapitel selbst wird nur auf diesem Server regelbasiert geprüft. Die Datei und das Feedback werden nicht gespeichert. Namen, die nur im Fliesstext vorkommen, können nicht zuverlässig erkannt werden.</span>
+    </label>
+
+    <div class="knoepfe"><button type="submit" id="start">Prüfen</button></div>
+  </form>
+
+  <div id="warten" class="warten" hidden role="status" aria-live="polite">
+    <div class="kreis" aria-hidden="true"></div>
+    <div><strong>Die Prüfung läuft …</strong><br><span id="wartetext">Das Formular wird gelesen.</span></div>
+  </div>
+  <div id="fehler" class="fehler" hidden role="alert"></div>
+</section>
+
+<section class="karte" id="resultat" hidden aria-labelledby="t-resultat" tabindex="-1">
+  <h2 id="t-resultat">Feedback</h2>
+  <div class="knoepfe">
+    <button type="button" id="pdf">Feedback als PDF herunterladen</button>
+    <button type="button" class="zweit" id="neu">Weiteren Antrag prüfen</button>
+  </div>
+  <div id="inhalt"></div>
+  <div class="knoepfe">
+    <button type="button" id="pdf2">Feedback als PDF herunterladen</button>
+  </div>
+  <p class="meta">Das Feedback wird nicht gespeichert. Laden Sie das PDF herunter, wenn Sie es behalten möchten.</p>
+</section>
+
+</div></main>
+
+<footer><div class="wrap">
+  KI-gestütztes Werkzeug zur Selbstüberprüfung. Unverbindlich; ersetzt keine offizielle Prüfung. ·
+  <a href="https://www.dlh.zh.ch/home/innovationsfonds/projektfoerderung" target="_blank" rel="noopener">DLH-Innovationsfonds</a>
+</div></footer>
+
+<script>
+(function(){
+  var f=document.getElementById('formular'), warten=document.getElementById('warten'), fehler=document.getElementById('fehler'),
+      resultat=document.getElementById('resultat'), inhalt=document.getElementById('inhalt'), start=document.getElementById('start'),
+      wartetext=document.getElementById('wartetext'), pdfDaten=null, pdfName='Feedback.pdf', takt=null;
+  var texte=['Das Formular wird gelesen.','Struktur, Längen und Projektteam werden regelbasiert geprüft.','Die KI prüft den Inhalt Kapitel für Kapitel.','Das Feedback wird zusammengestellt. Bitte noch etwas Geduld.'];
+
+  function zeigeFehler(t){fehler.textContent=t;fehler.hidden=false;}
+  function laden(an){
+    warten.hidden=!an; start.disabled=an;
+    if(takt){clearInterval(takt);takt=null;}
+    if(an){var i=0;wartetext.textContent=texte[0];takt=setInterval(function(){i=Math.min(i+1,texte.length-1);wartetext.textContent=texte[i];},15000);}
+  }
+  f.addEventListener('submit',function(ev){
+    ev.preventDefault(); fehler.hidden=true;
+    var datei=document.getElementById('datei').files[0];
+    if(!datei){zeigeFehler('Bitte wählen Sie zuerst eine Datei aus.');return;}
+    if(!/\.(docx|pdf)$/i.test(datei.name)){zeigeFehler('Bitte laden Sie eine .docx- oder .pdf-Datei hoch.');return;}
+    if(!document.getElementById('ok').checked){zeigeFehler('Bitte bestätigen Sie zuerst den Hinweis zur Datenverarbeitung.');return;}
+    laden(true); resultat.hidden=true;
+    fetch('api/pruefen',{method:'POST',body:new FormData(f)})
+      .then(function(r){return r.json().catch(function(){throw new Error('Der Server hat nicht wie erwartet geantwortet (Status '+r.status+'). Bitte versuchen Sie es in einer Minute erneut.');});})
+      .then(function(d){
+        laden(false);
+        if(!d.ok){zeigeFehler(d.fehler||'Die Prüfung ist fehlgeschlagen.');return;}
+        inhalt.innerHTML=d.html; pdfDaten=d.pdf_base64; pdfName=d.dateiname||pdfName;
+        resultat.hidden=false; resultat.focus(); resultat.scrollIntoView({behavior:'smooth',block:'start'});
+      })
+      .catch(function(e){laden(false);zeigeFehler(e.message||'Die Verbindung zum Server ist fehlgeschlagen. Bitte versuchen Sie es erneut.');});
+  });
+  function herunterladen(){
+    if(!pdfDaten)return;
+    var bin=atob(pdfDaten), bytes=new Uint8Array(bin.length);
+    for(var i=0;i<bin.length;i++)bytes[i]=bin.charCodeAt(i);
+    var url=URL.createObjectURL(new Blob([bytes],{type:'application/pdf'})), a=document.createElement('a');
+    a.href=url;a.download=pdfName;document.body.appendChild(a);a.click();a.remove();
+    setTimeout(function(){URL.revokeObjectURL(url);},2000);
+  }
+  document.getElementById('pdf').addEventListener('click',herunterladen);
+  document.getElementById('pdf2').addEventListener('click',herunterladen);
+  document.getElementById('neu').addEventListener('click',function(){
+    f.reset(); pdfDaten=null; inhalt.innerHTML=''; resultat.hidden=true; fehler.hidden=true;
+    document.getElementById('eingabe').scrollIntoView({behavior:'smooth'});
+  });
+})();
+</script>
+</body>
+</html>

@@ -126,14 +126,21 @@ def pruefe(dateiname: str, daten: bytes, formular_wahl: str = "auto") -> dict:
     if platzhalter:
         formales.append(f"Es stehen noch {platzhalter} Platzhalter («Schreiben Sie hier...» o. ä.) im Dokument.")
         st = lc.TEIL
+    todos = []
+    if not ergebnis["projekttitel"]:
+        todos.append("Bitte den Projekttitel auf der Titelseite eintragen.")
+    if platzhalter:
+        todos.append("Bitte die Platzhalter durch Ihren Text ersetzen oder löschen.")
     if hilfstexte:
-        formales.append(f"Es stehen noch {hilfstexte} Formular-Hilfstexte im Dokument.")
+        wort = "oranger Ausfüllhinweis" if hilfstexte == 1 else "orange Ausfüllhinweise"
+        formales.append(f"Es {'steht' if hilfstexte == 1 else 'stehen'} noch {hilfstexte} {wort} im Dokument.")
+        todos.append("Bitte die orangen Ausfüllhinweise vor der Einreichung löschen (siehe Hinweis auf der Titelseite).")
+        st = lc.TEIL
     if dok.hat_kommentare or dok.hat_aenderungen:
         formales.append("Aus meiner Sicht als KI sind noch Kommentare oder Bearbeitungsspuren (Änderungsverfolgung) vorhanden.")
+        todos.append("Vorschlag: Kommentare und Bearbeitungsspuren für ein sauberes Erscheinungsbild entfernen.")
         st = lc.TEIL
-    todo = ""
-    if st != lc.OK or hilfstexte:
-        todo = "Vorschlag: Platzhalter, Hilfstexte, Kommentare und Bearbeitungsspuren vor der Einreichung entfernen bzw. ergänzen."
+    todo = " ".join(todos)
     lokal_zeilen.append({"abschnitt": "Formular und Formales", "status": st, "befund": " ".join(formales), "todo": todo})
 
     stunden = lc.pruefe_stunden(abschnitte, fid, dok.quelle)

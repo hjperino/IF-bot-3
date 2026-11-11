@@ -54,6 +54,21 @@ def test_ok_antraege():
     assert [z for z in r["zeilen"] if "Kooperation" in z["abschnitt"]][0]["status"] == lc.OK
 
 
+def test_hilfstexte_und_fester_text():
+    r = lauf("L_ok.docx")  # Testantrag enthält noch alle orangen Hinweise
+    z = zeile(r, "Formular und Formales")
+    assert z["status"] == lc.TEIL and "orange Ausfüllhinweise" in z["befund"] and "Platzhalter" not in z["todo"]
+    # Formular 6.1: der feste Satz in 6.2 bleibt Teil des Antragstexts
+    gesehen = {}
+    original = llm.frage_ki
+    llm.frage_ki = lambda fid, k: (gesehen.update(k=k), original(fid, k))[1]
+    try:
+        lauf("Projekteingabefomular (Version 6.1, Original).pdf", REF)
+    finally:
+        llm.frage_ki = original
+    assert "Wir beantragen beim Innovationsfonds so viele Arbeitsstunden" in gesehen["k"]["antragstext"]
+
+
 def test_grenzen():
     r = lauf("L_stunden_zu_hoch.docx")
     assert zeile(r, "5.1 Grobplanung mit Aufwandsabschätzung – Total")["status"] == lc.NEIN

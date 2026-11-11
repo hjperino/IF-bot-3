@@ -84,8 +84,9 @@ def bereinige(zeilen: List[dict], fid: str) -> dict:
             if len(re.sub(r"[\W_]+", "", rest)) < 25:
                 continue
         if n in vorl:
-            if t.lstrip().startswith("[") or t.rstrip().endswith("]") or len(t) > 60:
-                hilfstexte += 1
+            # Unveränderter Formulartext. Im Formular 6.1 gehören feste Sätze (z. B. in 6.2) zum Antrag.
+            if fid == "61" and z["cells"] is None and len(t) > 30:
+                inhalt.append(t)
             continue
         inhalt.append(t)
     return {"inhalt": inhalt, "hilfstexte": hilfstexte, "platzhalter": platzhalter}

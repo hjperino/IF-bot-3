@@ -131,7 +131,7 @@ def als_pdf(r: dict) -> bytes:
     from reportlab.lib.pagesizes import A4, landscape
     from reportlab.lib.styles import ParagraphStyle
     from reportlab.lib.units import mm
-    from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
+    from reportlab.platypus import Image, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
     _fonts()
     dunkel, orange, violett, hell = colors.HexColor("#1d3437"), colors.HexColor("#ec6608"), colors.HexColor("#8a5da4"), colors.HexColor("#dccee4")
@@ -150,6 +150,18 @@ def als_pdf(r: dict) -> bytes:
                             title="Innovationsfonds-Check – Feedback", author="DLH-Innovationsfonds-Check (KI-gestützt)")
     breite = landscape(A4)[0] - 28 * mm
     s = []
+    bilder = Path(__file__).parent / "static" / "img"
+    try:  # Logos gemäss Branding-Vorgaben: Kantonslogo primär (links), DLH-Label ergänzend (rechts)
+        kanton = Image(str(bilder / "dlh-logo-kanton.png"), width=64 * mm, height=64 * mm * 236 / 1070, mask="auto")
+        label = Image(str(bilder / "dlh-label.png"), width=27 * mm, height=27 * mm * 248 / 517, mask="auto")
+        kanton.hAlign, label.hAlign = "LEFT", "RIGHT"
+        kopfband = Table([[kanton, label]], colWidths=[breite * 0.6, breite * 0.4])
+        kopfband.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "MIDDLE"), ("ALIGN", (1, 0), (1, 0), "RIGHT"),
+                                      ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                                      ("TOPPADDING", (0, 0), (-1, -1), 0), ("BOTTOMPADDING", (0, 0), (-1, -1), 8)]))
+        s.append(kopfband)
+    except Exception:  # noqa: BLE001 – ohne Logos weiter
+        pass
     s.append(Paragraph("DLH-Innovationsfonds-Check – Feedback zur Selbstüberprüfung", h1))
     datum = datetime.date.today().strftime("%d.%m.%Y")
     kopf = f"Erstellt am {datum} · Erkanntes Formular: {_p(r['formular'])}"

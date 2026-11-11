@@ -68,6 +68,11 @@ MOCK_LLM=1 uvicorn app.main:app --reload    # Seite auf http://127.0.0.1:8000, o
 | Texte der Webseite, Einwilligung | `app/static/index.html` |
 | Disclaimer, Links, PDF-Layout | `app/report.py` |
 
-## Schrift
+## Schrift und Logos
 
-Im PDF wird Liberation Sans verwendet (SIL Open Font License), abgelegt in `app/fonts/`.
+Hausschrift des DLH ist Helvetica Neue LT Std (kostenpflichtig). Ersatz:
+
+- Webseite: Helvetica Neue, wo installiert; sonst TeX Gyre Heros (freier Helvetica-Nachbau, GUST Font License), abgelegt in `app/static/fonts/`.
+- PDF: Liberation Sans (SIL Open Font License), abgelegt in `app/fonts/`.
+
+Die Logos in `app/static/img/` stammen aus den DLH-Web-Branding-Vorgaben vom 25.09.2024 (als PNG aus dem PDF gerendert).

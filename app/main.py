@@ -17,6 +17,7 @@ from pathlib import Path
 
 from fastapi import FastAPI, File, Form, Request, UploadFile
 from fastapi.responses import FileResponse, JSONResponse
+from fastapi.staticfiles import StaticFiles
 
 from . import pipeline, report
 from .extract import ExtraktionsFehler
@@ -31,6 +32,8 @@ LIMIT_IP = int(os.environ.get("LIMIT_PRO_IP_UND_TAG", "6"))
 LIMIT_TOTAL = int(os.environ.get("LIMIT_TOTAL_PRO_TAG", "150"))
 
 app = FastAPI(title="DLH-Innovationsfonds-Check", docs_url=None, redoc_url=None, openapi_url=None)
+
+app.mount("/static", StaticFiles(directory=str(STATIC)), name="static")  # Logos, Schriften
 
 _zaehler_lock = threading.Lock()
 _zaehler = {"tag": None, "ip": {}, "total": 0}

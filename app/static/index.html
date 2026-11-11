@@ -6,16 +6,34 @@
 <title>Innovationsfonds-Check – Digital Learning Hub Sek II</title>
 <meta name="robots" content="noindex">
 <style>
+/* Hausschrift des DLH ist Helvetica Neue. Wo sie nicht installiert ist, wird die freie,
+   eng verwandte TeX Gyre Heros geladen (GUST Font License, siehe static/fonts/). */
+@font-face{font-family:"DLH Sans";src:url("static/fonts/texgyreheros-regular.woff") format("woff");font-weight:300 500;font-style:normal;font-display:swap}
+@font-face{font-family:"DLH Sans";src:url("static/fonts/texgyreheros-bold.woff") format("woff");font-weight:600 800;font-style:normal;font-display:swap}
+@font-face{font-family:"DLH Sans";src:url("static/fonts/texgyreheros-italic.woff") format("woff");font-weight:300 500;font-style:italic;font-display:swap}
 :root{--dunkel:#1d3437;--orange:#ec6608;--orange-hell:#f9d1b4;--violett:#8a5da4;--violett-mitte:#b396c4;--violett-hell:#dccee4;--grund:#faf7fb;--weiss:#fff;--rot:#b3261e;--gruen:#2e7d4f}
 *{box-sizing:border-box}
-body{margin:0;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--dunkel);background:var(--grund);line-height:1.5}
+body{margin:0;font-family:"Helvetica Neue","DLH Sans",Helvetica,Arial,sans-serif;color:var(--dunkel);background:var(--grund);line-height:1.5}
 .band{height:8px;background:linear-gradient(90deg,var(--violett),var(--orange))}
 header{background:var(--weiss);border-bottom:1px solid var(--violett-hell)}
 .wrap{max-width:1100px;margin:0 auto;padding:0 16px}
-header .wrap{padding-top:22px;padding-bottom:20px}
-.dach{font-size:.85rem;color:var(--violett);font-weight:600;letter-spacing:.02em;margin:0 0 4px}
-h1{font-size:clamp(1.6rem,4vw,2.3rem);font-weight:300;margin:0;line-height:1.15}
-.lead{margin:10px 0 0;max-width:62ch}
+.marken{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-top:16px;padding-bottom:14px}
+.marken a{display:block;line-height:0;border-radius:4px}
+.marken .kanton img{height:56px;width:auto}
+.marken .label img{height:46px;width:auto}
+.titel{position:relative;overflow:hidden;border-top:1px solid var(--violett-hell);
+  background-color:#fdf3ea;
+  background-image:radial-gradient(circle,rgba(29,52,55,.16) 1px,transparent 1.4px);background-size:22px 22px}
+.titel .wrap{position:relative;padding-top:30px;padding-bottom:30px}
+.titel::before,.titel::after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.titel::before{width:230px;height:230px;right:-60px;top:-95px;border:46px solid var(--orange)}
+.titel::after{width:74px;height:74px;right:118px;top:62px;background:var(--violett)}
+.dach{font-size:.85rem;color:var(--violett);font-weight:700;letter-spacing:.02em;margin:0 0 6px}
+h1{font-size:clamp(1.8rem,4.6vw,2.7rem);font-weight:300;margin:0;line-height:1.1}
+.lead{margin:12px 0 0;max-width:56ch}
+@media (max-width:640px){.marken .kanton img{height:42px}.marken .label img{height:34px}
+  .titel::before{width:150px;height:150px;border-width:30px;right:-55px;top:-70px}.titel::after{width:44px;height:44px;right:58px;top:54px}
+  .lead{max-width:30ch}}
 main{padding:24px 0 48px}
 .karte{background:var(--weiss);border:1px solid var(--violett-hell);border-radius:10px;padding:20px;margin-bottom:20px}
 h2{font-size:1.25rem;color:var(--violett);margin:28px 0 10px}
@@ -55,19 +73,28 @@ tr.st-nicht_erfuellt .status{color:var(--rot)}
 tr.st-nicht_beurteilbar .status{color:#5b5b6b}
 .status{font-weight:600}
 .lokal{display:block;font-weight:400;font-size:.75rem;color:#5b5b6b}
-footer{border-top:1px solid var(--violett-hell);background:var(--dunkel);color:#fff;padding:18px 0;font-size:.88rem}
+footer{background:var(--dunkel);color:#fff;padding:26px 0;font-size:.88rem}
 footer a{color:#fff}
+footer .wrap{display:flex;gap:24px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+footer img{height:44px;width:auto;display:block}
+footer p{margin:0;max-width:60ch}
 [hidden]{display:none!important}
-@media print{header,.band,#eingabe,footer,.knoepfe{display:none}.karte{border:0;padding:0}}
+@media print{.titel,.band,#eingabe,footer,.knoepfe{display:none}.karte{border:0;padding:0}}
 </style>
 </head>
 <body>
 <div class="band"></div>
-<header><div class="wrap">
-  <p class="dach">Digital Learning Hub Sek II · Innovationsfonds</p>
-  <h1>Innovationsfonds-Check</h1>
-  <p class="lead">Prüfen Sie Ihren ausgefüllten Projektantrag selbst, bevor Sie ihn einreichen. Sie erhalten unverbindliche Hinweise zu formalen, strukturellen und inhaltlichen Lücken.</p>
-</div></header>
+<header>
+  <div class="wrap marken">
+    <a class="kanton" href="https://www.dlh.zh.ch/" target="_blank" rel="noopener"><img src="static/img/dlh-logo-kanton.png" width="1070" height="236" alt="DLH – Digital Learning Hub Sek II, Kanton Zürich"></a>
+    <a class="label" href="https://www.dlh.zh.ch/" target="_blank" rel="noopener"><img src="static/img/dlh-label.png" width="517" height="248" alt="DLH"></a>
+  </div>
+  <div class="titel"><div class="wrap">
+    <p class="dach">Innovationsfonds</p>
+    <h1>Innovationsfonds-Check</h1>
+    <p class="lead">Prüfen Sie Ihren ausgefüllten Projektantrag selbst, bevor Sie ihn einreichen. Sie erhalten unverbindliche Hinweise zu formalen, strukturellen und inhaltlichen Lücken.</p>
+  </div></div>
+</header>
 
 <main><div class="wrap">
 
@@ -125,8 +152,9 @@ footer a{color:#fff}
 </div></main>
 
 <footer><div class="wrap">
-  KI-gestütztes Werkzeug zur Selbstüberprüfung. Unverbindlich; ersetzt keine offizielle Prüfung. ·
-  <a href="https://www.dlh.zh.ch/home/innovationsfonds/projektfoerderung" target="_blank" rel="noopener">DLH-Innovationsfonds</a>
+  <a href="https://www.dlh.zh.ch/" target="_blank" rel="noopener"><img src="static/img/dlh-logo-kanton-negativ.png" width="1070" height="237" alt="DLH – Digital Learning Hub Sek II, Kanton Zürich"></a>
+  <p>KI-gestütztes Werkzeug zur Selbstüberprüfung. Unverbindlich; ersetzt keine offizielle Prüfung. ·
+  <a href="https://www.dlh.zh.ch/home/innovationsfonds/projektfoerderung" target="_blank" rel="noopener">DLH-Innovationsfonds</a></p>
 </div></footer>
 
 <script>

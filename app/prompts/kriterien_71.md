@@ -8,7 +8,7 @@ Die Geschäftsstelle des Innovationsfonds prüft nach Antragseingang die formale
 
 ## Projekttypen und Förderumfang
 
-- Digital Explorer: fix 160 Arbeitsstunden (max. 80 Arbeitsstunden pro Lehrperson und Jahr). Pilot / Testlauf; unkompliziertes Ausprobieren innovativer Ideen.
+- Digital Explorer: fix 160 Arbeitsstunden (max. 80 Arbeitsstunden pro Lehrperson und Jahr); eine Stundenplanung ist deshalb nicht nötig. Pilot / Testlauf; unkompliziertes Ausprobieren innovativer Ideen.
 - Learning Incubator: 160–800 Arbeitsstunden. Integration in den Alltag; Optimierung des Lern-/Lehrerfolgs einer bestehenden/getesteten Innovation.
 - Hub Scaler: 160–400 Arbeitsstunden. Breite Nutzbarmachung; bringt optimierte Projekte in die breite und langfristige Anwendung.
 - Zusätzliche Kosten bis maximal CHF 5'000 (z. B. Lizenzen, externe Fachberatung, technische Infrastruktur) sind finanzierbar, müssen im Antrag aber begründet werden.
@@ -29,7 +29,7 @@ Ein Unterrichtsprojekt wird von einer Lehrpersonengruppe gemeinsam entwickelt. D
 - Hub Scaler: gilt; erfordert zusätzlich überschulische oder interdisziplinäre Kooperation.
 
 ### 2 Unterstützung durch die Schulleitung
-Die Schulleitung wird über das Unterrichtsprojekt informiert und unterstützt es. Gilt für alle drei Projekttypen.
+Die Schulleitung wird über das Unterrichtsprojekt informiert und unterstützt es. Gilt für alle drei Projekttypen. Nachweis: Unterschrift des Schulleitungskontakts im Kapitel Projektteam. Eine separate schriftliche Bewilligung ist nicht erforderlich, auch nicht für Projekte der Berufsbildung (Auskunft der Geschäftsstelle, November 2026).
 
 ## Materielle Kriterien
 

@@ -1,6 +1,6 @@
 # Detailinstruktion Digital Explorer (Formularversion 7.1)
 
-ENTWURF vom 11.11.2026 – von Claude aus dem D-Formular, dessen Hilfstexten und den sieben Förderkriterien der DLH-Webseite abgeleitet. Noch nicht von der Geschäftsstelle geprüft. Mit «OFFEN» markierte Punkte sind in Abklärung.
+ENTWURF vom 11.11.2026 – von Claude aus dem D-Formular, dessen Hilfstexten und den sieben Förderkriterien der DLH-Webseite abgeleitet. Noch nicht von der Geschäftsstelle gegengelesen. Die Antworten der Geschäftsstelle zu Umfang, Mindeststunden und Schulleitung sind eingearbeitet (Stand 14.11.2026).
 
 Diese Detailinstruktion ist die massgebliche Prüfliste für ausgefüllte Projekteingaben des Typs Digital Explorer. Der Systemprompt regelt Rolle, Sprache, Quellenpriorität und Ausgabeformat.
 
@@ -46,7 +46,7 @@ Die lokalen Befunde nennen, ob noch orange Hilfstexte in eckigen Klammern, Platz
 
 ### 2.3 Umfang
 
-Längenempfehlung für die Kapitel 1.1–1.3 zusammen: 2–3 Seiten. OFFEN: Die Umrechnung von Seiten in Zeichen ist eine Annahme der Anwendung. Rückmeldung zur Länge nur, wenn der lokale Messwert als überschritten markiert ist. Ist die Skizze sehr kurz (deutlich unter einer Seite), prüfe, ob die verlangten Punkte trotzdem abgedeckt sind; wenn nicht, auf den verfügbaren Umfang hinweisen.
+Längenempfehlung für die Kapitel 1.1–1.3 zusammen: 2–3 Seiten. Die Seitenangaben sind Empfehlungen, keine Obergrenzen; auch längere Anträge werden gerne geprüft. Gib zur Länge einzelner Kapitel keine negative Rückmeldung. Die Anwendung weist selbst darauf hin, wenn die Summe aller Längenempfehlungen um mehr als 20 % überschritten ist (Umrechnung: 3'200 Zeichen inkl. Leerzeichen pro Seite, eine Annahme der Anwendung). Ist die Skizze sehr kurz (deutlich unter einer Seite), prüfe, ob die verlangten Punkte trotzdem abgedeckt sind; wenn nicht, auf den verfügbaren Umfang hinweisen.
 
 ---
 
@@ -118,7 +118,7 @@ Bewertungshinweise:
 
 Digital-Explorer-Projekte werden pauschal mit 160 Arbeitsstunden unterstützt; pro Lehrperson werden maximal 80 Arbeitsstunden pro Jahr ausbezahlt. Das Kapitel enthält nur einen festen Hinweistext und ist nicht auszufüllen. Die Anwendung ergänzt dazu selbst eine Zeile. Erstelle keine eigene Zeile zu 2.1.
 
-OFFEN: Stundenzahlen in Abklärung.
+Die 160 Stunden sind fix, damit keine eigene Stundenplanung nötig ist. Verlange keine.
 
 ### 4.2 Kapitel 2.2 – Zusätzliche Mittel
 
@@ -147,7 +147,7 @@ Nutze sie für die Querschnittsprüfung:
 - Decken die genannten Kompetenzen des Teams ab, was das Vorhaben verlangt?
 - Bei zwei Personen und pauschal 160 Stunden: Ist der Umfang des Vorhabens damit plausibel?
 
-OFFEN: Ob für Projekte der Berufsbildung weiterhin eine schriftliche Bewilligung der Schulleitung nötig ist, ist in Abklärung. Bis dahin nicht prüfen.
+Schulleitung: Es gilt das Kriterium «Die Schulleitung wird über das Unterrichtsprojekt informiert und unterstützt es». Nachgewiesen wird das durch die Unterschrift des Schulleitungskontakts im Kapitel Projektteam; die Anwendung prüft sie selbst. Eine separate schriftliche Bewilligung der Schulleitung ist nicht nötig, auch nicht für Projekte der Berufsbildung. Verlange sie nicht.
 
 ---
 

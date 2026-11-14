@@ -1,6 +1,6 @@
 # Detailinstruktion Learning Incubator (Formularversion 7.1)
 
-ENTWURF vom 11.11.2026 – von Claude aus dem L-Formular, dessen Hilfstexten, den sieben Förderkriterien der DLH-Webseite und der bisherigen Detailinstruktion (Formular 6.1) abgeleitet. Noch nicht von der Geschäftsstelle geprüft. Mit «OFFEN» markierte Punkte sind in Abklärung.
+ENTWURF vom 11.11.2026 – von Claude aus dem L-Formular, dessen Hilfstexten, den sieben Förderkriterien der DLH-Webseite und der bisherigen Detailinstruktion (Formular 6.1) abgeleitet. Noch nicht von der Geschäftsstelle gegengelesen. Die Antworten der Geschäftsstelle zu Umfang, Mindeststunden und Schulleitung sind eingearbeitet (Stand 14.11.2026).
 
 Diese Detailinstruktion ist die massgebliche Prüfliste für ausgefüllte Projekteingaben des Typs Learning Incubator. Der Systemprompt regelt Rolle, Sprache, Quellenpriorität und Ausgabeformat.
 
@@ -52,7 +52,7 @@ Längenempfehlungen des Formulars:
 - Kapitel 3 (3.1–3.3.3): 2–3 Seiten
 - Kapitel 4 (4.1–4.2): ½ Seite
 
-OFFEN: Die Umrechnung von Seiten in Zeichen ist eine Annahme der Anwendung. Rückmeldung zur Länge nur, wenn der lokale Messwert als überschritten markiert ist. Fussnoten zählen nicht.
+Die Seitenangaben sind Empfehlungen, keine Obergrenzen; auch längere Anträge werden gerne geprüft. Gib zur Länge einzelner Kapitel keine negative Rückmeldung. Die Anwendung weist selbst darauf hin, wenn die Summe aller Längenempfehlungen um mehr als 20 % überschritten ist (Umrechnung: 3'200 Zeichen inkl. Leerzeichen pro Seite, eine Annahme der Anwendung). Fussnoten zählen nicht.
 
 ---
 
@@ -253,7 +253,7 @@ Prüfe anhand der Tabelle:
 - Sind Zwischentotale und Total eingetragen und rechnerisch plausibel, soweit prüfbar?
 - Passen Aufwand, Team, Evaluation und Umfang des Vorhabens zusammen?
 
-Das Total der offenen Arbeitsstunden (Rahmen 160–800) prüft die Anwendung lokal; übernimm das Ergebnis und erstelle dazu keine eigene Zeile. OFFEN: Mindeststundenzahl in Abklärung.
+Das Total der offenen Arbeitsstunden (Rahmen 160–800) prüft die Anwendung lokal; übernimm das Ergebnis und erstelle dazu keine eigene Zeile.
 
 ### 7.2 Kapitel 5.2 – Drittmittelausweis (Ergänzung zur grünen Kolonne)
 
@@ -276,7 +276,7 @@ Offenes Kapitel. Leer: nicht negativ markieren.
 
 Das Projektteam wird von der Anwendung lokal geprüft. Du erhältst nur eine anonymisierte Zusammenfassung. Nutze sie für die Querschnittsprüfung: Sind alle für das Projekt nötigen Kompetenzen vertreten? Ein eng zusammengesetztes Team nicht automatisch negativ werten, sondern als mögliche Rückfrage formulieren.
 
-OFFEN: Ob für Projekte der Berufsbildung weiterhin eine schriftliche Bewilligung der Schulleitung nötig ist, ist in Abklärung. Bis dahin nicht prüfen.
+Schulleitung: Es gilt das Kriterium «Die Schulleitung wird über das Unterrichtsprojekt informiert und unterstützt es». Nachgewiesen wird das durch die Unterschrift des Schulleitungskontakts im Kapitel Projektteam; die Anwendung prüft sie selbst. Eine separate schriftliche Bewilligung der Schulleitung ist nicht nötig, auch nicht für Projekte der Berufsbildung. Verlange sie nicht.
 
 ---
 

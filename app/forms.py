@@ -3,9 +3,13 @@
 61 = Projekteingabeformular Version 6.1 (altes Einheitsformular)
 D  = Digital Explorer, L = Learning Incubator, H = Hub Scaler (Formularversion 7.1)
 
-OFFEN (Abklärung Hans/Geschäftsstelle): Seitenvorgaben, Mindeststunden,
-schriftliche Bewilligung der Schulleitung (BB). Die betroffenen Werte sind unten
-mit "OFFEN" markiert und an einer einzigen Stelle änderbar.
+Abklärungen der Geschäftsstelle (Stand 14.11.2026), hier umgesetzt für D, L, H:
+- Umfang: Die Seitenangaben sind Empfehlungen. Rückmeldung nur, wenn die SUMME
+  aller Längenempfehlungen eines Formulars um mehr als 20 % überschritten ist.
+- Stunden: mindestens 160 (L, H); Digital Explorer fix 160, ohne Planung.
+- Schulleitung: keine separate schriftliche Bewilligung mehr (auch nicht BB).
+  Nachweis ist die Unterschrift des SL-Kontakts im Kapitel Projektteam.
+Formular 6.1 läuft unverändert mit den alten Werten.
 """
 from __future__ import annotations
 
@@ -13,9 +17,10 @@ import difflib
 import re
 from typing import Dict, List, Optional, Tuple
 
-# Annahme aus dem früheren Prompt V6: 1 Seite ≈ 3'200 Zeichen inkl. Leerzeichen.  OFFEN
+# Annahme aus dem früheren Prompt V6: 1 Seite ≈ 3'200 Zeichen inkl. Leerzeichen.
+# Die Geschäftsstelle hat dazu keinen Wert genannt; bei Bedarf hier ändern.
 ZEICHEN_PRO_SEITE = 3200
-TOLERANZ = 1.2  # Rückmeldung erst ab +20 % (wie bisher)
+TOLERANZ = 1.2  # Formulare 7.1: Hinweis erst, wenn die Summe der Empfehlungen um mehr als 20 % überschritten ist
 
 _TEAM_7 = [("Projektleitung und Kontaktperson", 2), ("Weitere Teammitglieder", 2)]
 
@@ -97,9 +102,9 @@ FORMULARE: Dict[str, dict] = {
         "mittel": "2.2",
         "optional": ["2.1", "2.2", "2.3"],
         "messung": [
-            {"kapitel": "1", "label": "Kapitel 1.1–1.3", "art": "seiten", "soll_text": "2–3 Seiten", "max_seiten": 3},  # OFFEN
+            {"kapitel": "1", "label": "Kapitel 1.1–1.3", "art": "seiten", "soll_text": "2–3 Seiten", "max_seiten": 3},
         ],
-        "stunden": {"fix": 160, "max_pro_lp_jahr": 80},  # OFFEN: Mindeststunden
+        "stunden": {"fix": 160, "max_pro_lp_jahr": 80},
         "sach_max": 5000,
     },
     "L": {
@@ -144,13 +149,13 @@ FORMULARE: Dict[str, dict] = {
         "planung": "5.1",
         "mittel": "5.3",
         "optional": ["5.2", "5.3", "5.4"],
-        "messung": [  # OFFEN: Seitenvorgaben
+        "messung": [
             {"kapitel": "1", "label": "Kapitel 1.1–1.3", "art": "seiten", "soll_text": "maximal 1 Seite", "max_seiten": 1},
             {"kapitel": "2", "label": "Kapitel 2.1–2.2", "art": "seiten", "soll_text": "½–1 Seite", "max_seiten": 1},
             {"kapitel": "3", "label": "Kapitel 3.1–3.3.3", "art": "seiten", "soll_text": "2–3 Seiten", "max_seiten": 3},
             {"kapitel": "4", "label": "Kapitel 4.1–4.2", "art": "seiten", "soll_text": "½ Seite", "max_seiten": 0.5},
         ],
-        "stunden": {"min": 160, "max": 800, "zeile": r"total\s+arbeitsstunden\s*\(offen\)"},  # OFFEN: Mindeststunden
+        "stunden": {"min": 160, "max": 800, "zeile": r"total\s+arbeitsstunden\s*\(offen\)"},
         "sach_max": 5000,
     },
     "H": {
@@ -195,13 +200,13 @@ FORMULARE: Dict[str, dict] = {
         "planung": "5.1",
         "mittel": "5.3",
         "optional": ["5.2", "5.3", "5.4"],
-        "messung": [  # OFFEN: Seitenvorgaben
+        "messung": [
             {"kapitel": "1", "label": "Kapitel 1.1–1.3", "art": "seiten", "soll_text": "maximal 1 Seite", "max_seiten": 1},
             {"kapitel": "2", "label": "Kapitel 2.1–2.2", "art": "seiten", "soll_text": "½–1 Seite", "max_seiten": 1},
             {"kapitel": "3", "label": "Kapitel 3.1–3.2.3", "art": "seiten", "soll_text": "1–3 Seiten", "max_seiten": 3},
             {"kapitel": "4", "label": "Kapitel 4.1–4.3.3", "art": "seiten", "soll_text": "ca. 1–2 Seiten", "max_seiten": 2},
         ],
-        "stunden": {"min": 160, "max": 400, "zeile": r"total\s+arbeitsstunden\s*\(offen\)"},  # OFFEN: Mindeststunden
+        "stunden": {"min": 160, "max": 400, "zeile": r"total\s+arbeitsstunden\s*\(offen\)"},
         "sach_max": 5000,
         "kooperation": True,  # überschulisch oder interdisziplinär
     },

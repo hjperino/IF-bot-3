@@ -128,14 +128,15 @@ def messe(abschnitte_inhalt: Dict[str, List[str]], fid: str, quelle: str, hat_fu
             e.update(wert=ohne, messtext=f"Gemessen: {ohne} Zeichen ohne Leerzeichen.",
                      soll=f"max. {m['soll']} Zeichen ohne Leerzeichen", ueber=ohne > m["schwelle"])
         else:  # seiten (Formulare 7.1) – Umrechnung ist eine Annahme, siehe forms.ZEICHEN_PRO_SEITE
+            # Einzelne Kapitel werden nicht mehr beanstandet; massgebend ist die Summe (messe_gesamt).
             seiten = mit / forms.ZEICHEN_PRO_SEITE
-            grenze = m["max_seiten"] * forms.ZEICHEN_PRO_SEITE * forms.TOLERANZ
             e.update(
                 wert=round(seiten, 1),
+                max_seiten=m["max_seiten"],
                 messtext=(f"Gemessen: {mit} Zeichen inkl. Leerzeichen, das entspricht rund "
                           f"{seiten:.1f} Seiten Fliesstext (Umrechnung: {forms.ZEICHEN_PRO_SEITE} Zeichen pro Seite)."),
                 soll=f"Längenempfehlung: {m['soll_text']}",
-                ueber=mit > grenze,
+                ueber=False,
             )
         e["hinweis"] = ""
         if quelle == "pdf":
@@ -145,6 +146,31 @@ def messe(abschnitte_inhalt: Dict[str, List[str]], fid: str, quelle: str, hat_fu
             e["hinweis"] = "Fussnoten sind nicht mitgezählt."
         out.append(e)
     return out
+
+
+def messe_gesamt(messwerte: List[dict]) -> Optional[dict]:
+    """Formulare 7.1: Summe aller Längenempfehlungen gegen den gesamten gemessenen Text.
+
+    Die Empfehlungen pro Kapitel sind Richtwerte. Ein Hinweis erfolgt erst, wenn die
+    Summe um mehr als 20 % überschritten ist (Vorgabe der Geschäftsstelle, 14.11.2026).
+    Formular 6.1 (Sätze/Zeichen pro Kapitel) liefert None.
+    """
+    seiten = [m for m in messwerte if m["art"] == "seiten"]
+    if not seiten or len(seiten) != len(messwerte):
+        return None
+    soll = sum(m["max_seiten"] for m in seiten)
+    zeichen = sum(m["zeichen_mit"] for m in seiten)
+    ist = zeichen / forms.ZEICHEN_PRO_SEITE
+    ueber = zeichen > soll * forms.ZEICHEN_PRO_SEITE * forms.TOLERANZ
+    prozent = round((ist / soll - 1) * 100) if soll else 0
+    text = (f"Die Kapitel mit Längenempfehlung umfassen zusammen rund {ist:.1f} Seiten Fliesstext "
+            f"({zeichen} Zeichen inkl. Leerzeichen, gerechnet mit {forms.ZEICHEN_PRO_SEITE} Zeichen pro Seite). "
+            f"Die Längenempfehlungen des Formulars ergeben zusammen maximal {_fmt(soll)} Seiten.")
+    if ueber:
+        text += f" Das sind rund {prozent} % mehr."
+    hinweis = next((m["hinweis"] for m in seiten if m.get("hinweis")), "")
+    return {"soll_seiten": soll, "ist_seiten": round(ist, 1), "zeichen": zeichen, "prozent_ueber": max(prozent, 0),
+            "ueber": ueber, "text": text, "hinweis": hinweis}
 
 
 # ---------------------------------------------------------------- Zahlen
@@ -469,6 +495,9 @@ def pruefe_team(abschnitte: Dict[str, List[dict]], fid: str, quelle: str) -> dic
         todo = ""
         if fehlend:
             todo = "Bitte die fehlenden Angaben ergänzen."
+            if "Ort, Datum, Unterschrift SL-Kontakt" in fehlend:
+                todo += (" Die Unterschrift des Schulleitungskontakts belegt, dass die Schulleitung "
+                         "informiert ist und das Projekt unterstützt.")
         elif berechtigt_txt == "nein":
             todo = "Bitte die Berechtigung mit der Geschäftsstelle klären."
         elif status == UNKLAR:

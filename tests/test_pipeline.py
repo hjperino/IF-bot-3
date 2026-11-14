@@ -77,6 +77,43 @@ def test_grenzen():
     assert zeile(r, "5.1 Grobplanung mit Aufwandsabschätzung – Total")["status"] == lc.NEIN
 
 
+def test_umfang_summe_20_prozent():
+    """Formulare 7.1: Hinweis erst, wenn die Summe der Längenempfehlungen um mehr als 20 % überschritten ist."""
+    def mw(zeichen, seiten):
+        return {"art": "seiten", "zeichen_mit": zeichen, "max_seiten": seiten, "hinweis": ""}
+    # L: 1 + 1 + 3 + 0.5 = 5.5 Seiten = 17'600 Zeichen; Grenze +20 % = 21'120
+    assert lc.messe_gesamt([mw(9000, 1), mw(3000, 1), mw(9000, 3), mw(120, 0.5)])["ueber"] is False   # 21'120: genau auf der Grenze
+    g = lc.messe_gesamt([mw(9000, 1), mw(3000, 1), mw(9000, 3), mw(121, 0.5)])                        # ein Kapitel stark, Summe knapp darüber
+    assert g["ueber"] is True and g["soll_seiten"] == 5.5
+    assert lc.messe_gesamt([{"art": "saetze", "zeichen_mit": 99999}]) is None                         # Formular 6.1
+    # im Ablauf: normaler Testantrag -> keine Zeile, keine Längenliste
+    r = lauf("L_ok.docx")
+    assert not [z for z in r["zeilen"] if z["abschnitt"] == "Dokument – Umfang"] and r["messwerte"] == []
+    alt = forms.ZEICHEN_PRO_SEITE
+    forms.ZEICHEN_PRO_SEITE = 100  # macht denselben Antrag künstlich «zu lang»
+    try:
+        r = lauf("L_ok.docx")
+    finally:
+        forms.ZEICHEN_PRO_SEITE = alt
+    z = [z for z in r["zeilen"] if z["abschnitt"] == "Dokument – Umfang"]
+    assert len(z) == 1 and z[0]["status"] == lc.TEIL and "5.5 Seiten" in z[0]["befund"] and r["messwerte"]
+    # Formular 6.1 unverändert: Messwerte pro Kapitel bleiben
+    assert lauf("Projekteingabefomular (Version 6.1, Original).pdf", REF)["messwerte"]
+
+
+def test_stunden_und_schulleitung():
+    assert forms.FORMULARE["L"]["stunden"]["min"] == 160 and forms.FORMULARE["H"]["stunden"]["min"] == 160
+    assert forms.FORMULARE["D"]["stunden"]["fix"] == 160
+    r = lauf("D_ok.docx")
+    assert "160 Arbeitsstunden" in zeile(r, "2.1 Arbeitsstunden")["befund"]
+    for fid in "DLH":
+        txt = llm.baue_nachrichten(fid, {"formular_name": "x", "abschnitte_liste": [], "lokal": {},
+                                          "antragstext": "t", "projektliste": "p"})[0]["content"]
+        assert "OFFEN" not in txt and "Unterschrift des Schulleitungskontakts" in txt
+    r = lauf("H_ok.docx")  # Teammitglied 1 ohne SL-Unterschrift
+    assert "belegt, dass die Schulleitung" in zeile(r, "6.2 Teammitglied 1")["todo"]
+
+
 def test_eine_person_ohne_kreuz():
     r = lauf("D_eine_person.docx")
     assert [z for z in r["zeilen"] if "Teamgrösse" in z["abschnitt"]][0]["status"] == lc.NEIN

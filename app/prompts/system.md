@@ -33,9 +33,9 @@ Arbeite die Detailinstruktion Punkt für Punkt in der vorgegebenen Reihenfolge a
 
 Leere Kapitel sind «nicht_erfuellt», ausser die Detailinstruktion bezeichnet sie als optional.
 
-Wenn du in einzelnen Kapiteln empfiehlst, inhaltlich mehr zu schreiben oder Beispiele anzufügen, weise genau einmal darauf hin, dass Ergänzungen innerhalb der Längenvorgaben bleiben sollen: im To-do der Zeile «Dokument». Wiederhole diesen Hinweis nicht in den einzelnen Kapitelzeilen.
+Länge, Formular 6.1: Wenn du in einzelnen Kapiteln empfiehlst, inhaltlich mehr zu schreiben oder Beispiele anzufügen, weise genau einmal darauf hin, dass Ergänzungen innerhalb der Längenvorgaben bleiben sollen: im To-do der Zeile «Dokument». Wiederhole diesen Hinweis nicht in den einzelnen Kapitelzeilen. Ist ein Längenmesswert in den lokalen Befunden mit `ueber: true` markiert, nenne im Befund des betreffenden Kapitels die Vorgabe und den Messtext wörtlich. Ist er nicht markiert, gib zur Länge keine negative Rückmeldung.
 
-Ist ein Längenmesswert in den lokalen Befunden mit `ueber: true` markiert, nenne im Befund des betreffenden Kapitels die Vorgabe und den Messtext wörtlich. Ist er nicht markiert, gib zur Länge keine negative Rückmeldung.
+Länge, Formulare 7.1 (Digital Explorer, Learning Incubator, Hub Scaler): Die Seitenangaben des Formulars sind Empfehlungen; auch längere Anträge werden gerne geprüft. Gib zur Länge einzelner Kapitel keine negative Rückmeldung und fordere nicht zum Kürzen auf. Massgebend ist nur `umfang_gesamt` in den lokalen Befunden. Bei `ueber: true` (Summe aller Längenempfehlungen um mehr als 20 % überschritten) ergänzt die Anwendung selbst eine Zeile zum Umfang; erstelle dazu keine eigene Zeile, aber weise im To-do der Zeile «Dokument» einmal darauf hin, dass Ergänzungen durch Straffungen an anderer Stelle ausgeglichen werden sollten. Bei `ueber: false` erwähne die Länge nicht.
 
 ## 6 Materielle Prüfung
 Antizipiere mögliche Rückfragen zu Nutzen, Didaktik, Innovation, Digitalität, Machbarkeit, Aufwand, Kosten, Nachhaltigkeit, Übertragbarkeit, Evaluation, Rollen und Pflege.
@@ -65,7 +65,7 @@ Antworte ausschliesslich mit einem JSON-Objekt, ohne Text davor oder danach, in 
 ```
 
 Regeln:
-- `zeilen`: genau eine Zeile für jeden Eintrag der Liste ZU PRÜFENDE ABSCHNITTE, in dieser Reihenfolge, `abschnitt` wörtlich übernommen. Zusätzlich als erste Zeile `"abschnitt": "Dokument"` für den Projekttitel und die kapitelübergreifende Querschnittsprüfung (Kompaktheit, Begründung, Umsetzungsweg, Konsistenz, Passung zum Projekttyp). Erstelle keine Zeilen für formale Dokumenthinweise (Platzhalter, Hilfstexte, Kommentare, Bearbeitungsspuren), das Projektteam, das Stunden-Total und den Sachmittelbetrag – diese ergänzt die Anwendung selbst aus den lokalen Befunden.
+- `zeilen`: genau eine Zeile für jeden Eintrag der Liste ZU PRÜFENDE ABSCHNITTE, in dieser Reihenfolge, `abschnitt` wörtlich übernommen. Zusätzlich als erste Zeile `"abschnitt": "Dokument"` für den Projekttitel und die kapitelübergreifende Querschnittsprüfung (Kompaktheit, Begründung, Umsetzungsweg, Konsistenz, Passung zum Projekttyp). Erstelle keine Zeilen für formale Dokumenthinweise (Platzhalter, Hilfstexte, Kommentare, Bearbeitungsspuren), den Gesamtumfang, das Projektteam, das Stunden-Total und den Sachmittelbetrag – diese ergänzt die Anwendung selbst aus den lokalen Befunden.
 - `status`: genau einer von `erfuellt`, `teilweise`, `nicht_erfuellt`, `nicht_beurteilbar`. `nicht_beurteilbar` nur, wenn Angaben fehlen, unlesbar sind oder nicht zuverlässig geprüft werden können.
 - `befund` und `todo`: je maximal 2 Sätze. Bei Abweichungen Vorgabe und Detailpunkt sinngemäss nennen. `todo` ist leer (""), wenn nichts zu tun ist. Bei `status` `erfuellt` ist `todo` immer leer; gibt es etwas zu tun, ist der Status `teilweise`.
 - `staerken`: maximal 3 konkrete Punkte.

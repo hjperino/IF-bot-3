@@ -54,7 +54,7 @@ def _mock(kontext: dict) -> dict:
     for a in kontext["abschnitte_liste"]:
         zeilen.append({"abschnitt": a, "status": "teilweise",
                        "befund": "TESTANTWORT ohne KI: Aus meiner Sicht als KI könnte dieser Abschnitt konkreter sein.",
-                       "todo": "Vorschlag: ein Beispiel ergänzen (unter Einhaltung der Längenvorgabe)."})
+                       "todo": "Vorschlag: ein Beispiel ergänzen."})
     return {"zeilen": zeilen, "staerken": ["TESTANTWORT: klare Ausgangslage"],
             "rueckfragen": ["TESTANTWORT: Wie wird der Lernerfolg gemessen?"],
             "fazit": "TESTANTWORT ohne KI. Diese Ausgabe dient nur der technischen Kontrolle.",

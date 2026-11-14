@@ -115,7 +115,10 @@ def pruefe(dateiname: str, daten: bytes, formular_wahl: str = "auto") -> dict:
     hilfstexte = sum(r["hilfstexte"] for r in rein.values())
     platzhalter = sum(r["platzhalter"] for r in rein.values())
     messwerte = lc.messe(inhalt, fid, dok.quelle, dok.hat_fussnoten)
-    ergebnis["messwerte"] = messwerte
+    umfang = lc.messe_gesamt(messwerte)  # nur Formulare 7.1; 6.1 -> None
+    # Formular 6.1: Messwerte pro Kapitel wie bisher. Formulare 7.1: Details nur zeigen,
+    # wenn die Summe der Längenempfehlungen um mehr als 20 % überschritten ist.
+    ergebnis["messwerte"] = messwerte if (umfang is None or umfang["ueber"]) else []
 
     # 3) lokale Zeilen
     lokal_zeilen: List[dict] = []
@@ -142,6 +145,14 @@ def pruefe(dateiname: str, daten: bytes, formular_wahl: str = "auto") -> dict:
         st = lc.TEIL
     todo = " ".join(todos)
     lokal_zeilen.append({"abschnitt": "Formular und Formales", "status": st, "befund": " ".join(formales), "todo": todo})
+
+    if umfang and umfang["ueber"]:
+        lokal_zeilen.append({
+            "abschnitt": "Dokument – Umfang", "status": lc.TEIL,
+            "befund": umfang["text"] + (f" {umfang['hinweis']}" if umfang["hinweis"] else ""),
+            "todo": ("Die Längenempfehlungen sind Richtwerte. Vorschlag: prüfen, wo sich der Text straffen "
+                     "oder Zusatzinformation in Fussnoten verschieben lässt."),
+        })
 
     stunden = lc.pruefe_stunden(abschnitte, fid, dok.quelle)
     sach = lc.pruefe_sachmittel(abschnitte, fid)
@@ -182,10 +193,11 @@ def pruefe(dateiname: str, daten: bytes, formular_wahl: str = "auto") -> dict:
         "stehen_gebliebene_hilfstexte": hilfstexte,
         "kommentare_oder_bearbeitungsspuren": bool(dok.hat_kommentare or dok.hat_aenderungen),
         "fussnoten_vorhanden": dok.hat_fussnoten,
-        "laengenmessung": [
+        "laengenmessung": ([
             {"kapitel": m["label"], "vorgabe": m["soll"], "messtext": m["messtext"], "ueber": m["ueber"],
              "hinweis": m["hinweis"]} for m in messwerte
-        ],
+        ] if umfang is None else []),
+        "umfang_gesamt": ({"ueber": umfang["ueber"], "text": umfang["text"]} if umfang else None),
         "arbeitsstunden": ({"status": stunden["status"], "befund": stunden["befund"]} if stunden else None),
         "zusaetzliche_mittel": ({"status": sach["status"], "befund": sach["befund"]} if sach else "kein Total erkennbar"),
         "projektteam": {

@@ -18,7 +18,7 @@ Antragstellende laden ihr ausgefülltes Formular hoch (.docx oder .pdf) und erha
 1. Datei einlesen (nur im Arbeitsspeicher, nichts wird gespeichert).
 2. Formulartyp erkennen.
 3. Strukturprüfung. Fehlen Titel oder ist die Reihenfolge verändert: Abbruch mit Soll/Ist-Tabelle, kein KI-Aufruf.
-4. Lokale, regelbasierte Prüfungen ohne KI: Textlängen, Stunden-Total, Sachmittel, Projektteam, Schulberechtigung, Platzhalter, Kommentare.
+4. Lokale, regelbasierte Prüfungen ohne KI: Umfang (Formulare 7.1: Hinweis erst, wenn die Summe der Längenempfehlungen um mehr als 20 % überschritten ist; Formular 6.1: pro Kapitel wie bisher), Stunden-Total, Sachmittel, Projektteam, Schulberechtigung, Platzhalter, Kommentare.
 5. Schwärzung: Das Kapitel Projektteam geht nicht an die KI. Im übrigen Text werden Namen der Teammitglieder, E-Mail-Adressen und Telefonnummern ersetzt.
 6. Inhaltliche Prüfung über die OpenAI-Schnittstelle (Systemprompt + Detailinstruktion + Förderkriterien + Projektliste).
 7. Ergebnis als HTML und PDF.
